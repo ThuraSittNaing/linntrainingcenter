@@ -1,5 +1,144 @@
-<br>
-<div class="container">
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<style>    
+
+           .mySlides {display:none;}
+
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:#AAAAFF;
+            }
+
+             {
+            float: left;
+            border-right:0px solid #bbb;
+            }
+
+            :last-child {
+            border-right: none;
+            }
+
+             a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+             a:hover {
+            background-color:#CCCCFF;
+            
+            }
+            #mySidenav a {
+                position: absolute;
+                left: -50px;
+                transition: 0.3s;
+                padding: 20px;
+                width: 100px;
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                border-radius: 0 5px 5px 0;
+            }
+            @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+
+            @import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
+            .box > .icon { 
+                text-align: 
+                center; 
+                position: 
+                relative; 
+                }
+            .box > .icon > .image { 
+                position: relative; 
+                z-index: 2; 
+                margin: auto; 
+                width: 88px; 
+                height: 88px; 
+                border: 8px solid white; 
+                line-height: 88px; 
+                border-radius: 50%; 
+                background: #428bca; 
+                vertical-align: middle; 
+                }
+            .box > .icon > .image > i { 
+                font-size: 36px !important; 
+                color: #fff !important; 
+                }
+            .box > .icon:hover > .image > i { 
+                color: white !important; 
+                }
+            .box > .icon > .info { 
+                margin-top: -24px; 
+                background: rgba(0, 0, 0, 0.04); 
+                border: 1px solid #e0e0e0; 
+                padding: 15px 0 10px 0; 
+                }
+            .box > .icon > .info > h3.title { 
+                font-family: sans-serif !important; 
+                font-size: 16px; 
+                color: #222; 
+                font-weight: 500; 
+                }
+            .box > .icon > .info > p { 
+                font-family: sans-serif !important; 
+                font-size: 13px; 
+                color: #666; 
+                line-height: 1.5em; 
+                margin: 20px;
+                }
+            .box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { 
+                color: #222; 
+                }
+            .box > .icon > .info > .more a { 
+                font-family: sans-serif !important; 
+                font-size: 12px; 
+                color: #222; 
+                line-height: 12px; 
+                text-transform: uppercase; 
+                text-decoration: none; 
+                }
+            .box > .icon:hover > .info > .more > a { 
+                color: #fff; 
+                padding: 6px 8px; 
+                background-color: #63B76C; 
+                }
+            .box .space { 
+                height: 30px; 
+                }
+
+            .modal-header-primary {
+                color:#fff;
+                padding:9px 15px;
+                border-bottom:1px solid #eee;
+                background-color: #428bca;
+                -webkit-border-top-left-radius: 5px;
+                -webkit-border-top-right-radius: 5px;
+                -moz-border-radius-topleft: 5px;
+                -moz-border-radius-topright: 5px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+
+            
+</style>
+</head>
+<body>
+  <br><br>
+  <div class="container">
   <div class="w3-content w3-display-container">
     <img class="mySlides" src="image/HO.jpg" style="width:100%">
     <img class="mySlides" src="image/HO1.jpg" style="width:100%">
@@ -11,31 +150,147 @@
   </div>
 
   <script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
+    var slideIndex = 1;
+    showDivs(slideIndex);
 
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
     }
-    x[slideIndex-1].style.display = "block";  
-  }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
   </script>
-</div>
-<br>
-<br>
-<div style="margin-left:100px;">
+
+  <br><br>
+        
+          <div class="row">
+              <div class="col-md-3 col-xs-4">
+            
+                <div class="box">							
+                <div class="icon">
+                <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
+                <div class="info"><br>
+              
+                  <h2 class="title">Mobile Service</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                  </p>
+                  <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
+
+                </div>
+                </div>
+                </div>
+                <div class="space"></div>
+                </div> 	    
+          <div class="col-md-3 col-xs-4">
+          
+                <div class="box">							
+                <div class="icon">
+                <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
+                <div class="info"><br>
+            
+                <h2 class="title">Printer Service</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                </p>
+                <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
     
-<img src="image/location.jpg" alt="location" style="width:30px; height:30px;" >
-အမွတ္(၁၄/၅၈၅)၊ေပါင္းေလာင္း(၄)လမ္း၊ပ်ဥ္းမနားျမို့။ <br><br>
-<img src="image/phone.jpg" alt="location" style="width:30px; height:30px;" >
-၀၆၇-၂၂၈၈၄၊၂၃၈၈၄၊၂၄၈၈၄။<br><br>
-</div>
+          <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                </div>
+                </div>
+                </div>
+                </div>
+                <div class="space"></div>
+                </div> 	    
+          <div class="col-md-3 col-xs-4">
+          
+            <div class="box">							
+            <div class="icon">
+              <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
+              <div class="info"><br>
+            
+                <h2 class="title">System Service</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                </p>
+                <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
+      
+          <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="space"></div>
+          </div> 
+          <div class="col-md-3 col-xs-4">
+          
+          <div class="box">    						
+          <div class="icon">
+          <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
+          <div class="info"><br>
+            
+              <h2 class="title">Internet Service</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+              </p>
+              <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
+     
+          <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="space"></div>
+          </div> 
+          </div></div>		    
+          <br><br><br>
+          <div class="row" style="margin-left:300px;">
+          <div class="col-lg-3">
+                  <center>
+                  <div class="card bg-info"><br>
+                  <img src="https://img.icons8.com/ios/50/000000/place-marker.png">
+                  <!-- <img src="image/location1.jpg" alt="location" style="width:30px; height:30px;" > -->
+                  အမွတ္(၁၄/၅၈၅)၊ေပါင္းေလာင္း<br>(၄)လမ္း၊ပ်ဥ္းမနားျမို့။ <br>
+                  <!-- <img src="image/phone.jpg" alt="location" style="width:30px; height:30px;" > -->
+                  ၀၆၇-၂၂၈၈၄၊၂၃၈၈၄၊၂၄၈၈၄။<br><br>
+                  </div><br>
+                  </center>
+            </div>
+
+
+            <div class="col-lg-3">
+                  <center>
+                  <div class="card bg-info"><br>
+                  <img src="https://img.icons8.com/ios/50/000000/place-marker.png">
+                  <!-- <img src="image/location1.jpg" alt="location" style="width:30px; height:30px;" > -->
+                  အမွတ္(၁၁/၇)၊ <br> ဗိုလ္ခ်ုပ္လမ္း၊ပ်ဥ္းမနားျမို့။ <br>
+                  ၀၆၇-၂၄၄၈၈၊၂၆၈၈၄<br><br>
+                  </div><br>
+                  </center>
+            </div>
+
+
+            <div class="col-lg-3">
+                  <center>
+                  <div class="card bg-info"><br>
+                  <img src="https://img.icons8.com/ios/50/000000/place-marker.png">
+                  <!-- <img src="image/phone.jpg" alt="location" style="width:30px; height:30px;" > -->
+                  အမွတ္(၁၁၇)၊သေျပကုန္း <br> ရပ္ကြက္၊ေနျပည္ေတာ္။ <br>
+                  ၀၆၇-၂၂၈၈၄၊၂၃၈၈၄၊၂၄၈၈၄။ <br><br>
+                  </div><br><br>
+                  </center>
+            </div>                                                                                                                                                                                                                                                                                                                                               
+    </div>
+
+</body>
+</html>
+
