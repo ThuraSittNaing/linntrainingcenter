@@ -44,7 +44,7 @@
     </style>
 </head>
 <body>
-<a href="../index.php"><input type="button" name="homebtn" class="btnclass" value="Back"></a><br><br>
+<a href="../course.php"><input type="button" name="homebtn" class="btnclass" value="Back"></a><br><br>
 <input type="button" value="Computer Intermediate Course" name="btninter" class="btnclass" onclick="comp();">
 <br>
 <br>

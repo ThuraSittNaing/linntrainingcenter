@@ -55,9 +55,10 @@
 </style>
 </head>
 <body>
-  <?php include ("header/header.html");?>
+  <?php include("header/header.html");?>
 <!-- <h2 class="w3-center">Linn IT Solution Co.,Ltd.</h2> -->
-  <?php include ("course/index.php");?>
-  <?php include ("footer/footer.html");?>
+  <?php include("course/index.php");?>
+  <?php include("footer/footer.html");?>
+  
 </body>
 </html>

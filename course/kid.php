@@ -46,7 +46,7 @@
 <body>
 
 
-<a href="../index.php"><input type="button" name="homebtn"  class="btnclass" value="Back"></a><br><br>
+<a href="../course.php"><input type="button" name="homebtn"  class="btnclass" value="Back"></a><br><br>
 
 <form id="formcomputer" name="computername">
 <div><h3 class="header">Kid Course</h3>

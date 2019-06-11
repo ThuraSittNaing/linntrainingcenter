@@ -49,7 +49,7 @@
 <body>
 
 <div>
-<a href="../index.php"><input type="button" name="homebtn"class="btnclass" value="Back"></a>
+<a href="../course.php"><input type="button" name="homebtn"class="btnclass" value="Back"></a>
 <br>
 <br>
 <input type="button" value="IOs Cuurse" name="btnios" class="btnclass" onclick="design();">
