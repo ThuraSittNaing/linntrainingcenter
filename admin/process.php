@@ -12,7 +12,7 @@ include "../dbconnect/connection.php";
 	else{
 		
 		if($email=="admin@gmail.com" && $password=="1234"){
-			header('location:http:home.html');
+			header('location:http:dashbord.php');
 		}
 		else{
 			echo "<script>alert('E-mail or password is wrong ')</script>";
