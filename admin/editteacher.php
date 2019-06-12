@@ -1,4 +1,5 @@
 <!-- include header -->
+
 <?php include('header.php') ?>
   <div id="wrapper">
 
@@ -14,12 +15,12 @@
           <li class="breadcrumb-item">
             <a href="#">Dashboard</a>
           </li>
-          <li class="breadcrumb-item">Teacher</li>
-          <li class="breadcrumb-item active">Add New Teacher</li>
+          <li class="breadcrumb-item active">Teachers</li>
         </ol>
-
-        <!-- Students Form  -->
-       <?php include('teacher/form.php') ?>
+        
+        <!-- Students DataTables  -->
+       <?php include('teacher/edit_form.php') ?>
+       
       </div>
       <!-- /.container-fluid -->
 

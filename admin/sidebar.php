@@ -12,7 +12,7 @@
       <span>Students</span></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="teachers.php">
+    <a class="nav-link" href="teacher.php">
       <i class="fas fa-fw fa-users"></i>
       <span>Teachers</span></a>
   </li>
