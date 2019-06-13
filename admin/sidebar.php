@@ -6,6 +6,15 @@
       <span>Dashboard</span>
     </a>
   </li>
+<<<<<<< HEAD
+=======
+   <li class="nav-item">
+    <a class="nav-link" href="user.php">
+      <i class="fas fa-fw fa-user"></i>
+      <span>User</span>
+    </a>
+  </li>
+>>>>>>> master
   <li class="nav-item active">
     <a class="nav-link" href="student.php">
       <i class="fas fa-fw fa-users"></i>

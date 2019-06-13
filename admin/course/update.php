@@ -14,6 +14,6 @@ if(isset($_POST['addbtn']))
 }
 
 $result = mysqli_query($conn," UPDATE course SET course_name='$name', course_desc='$desc',duration='$duration',fees='$fee',section='$sec' WHERE course_id=$id");
-
+header("Location:http://localhost/linntrainingcenter/admin/courses.php");
 
 ?>
