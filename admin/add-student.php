@@ -14,8 +14,8 @@
           <li class="breadcrumb-item">
             <a href="#">Dashboard</a>
           </li>
-          <li class="breadcrumb-item">Teacher</li>
-          <li class="breadcrumb-item active">Add New Teacher</li>
+          <li class="breadcrumb-item">Student</li>
+          <li class="breadcrumb-item active">Add New Student</li>
         </ol>
 
         <!-- Students Form  -->

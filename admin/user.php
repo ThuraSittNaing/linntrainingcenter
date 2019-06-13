@@ -14,7 +14,7 @@
           <li class="breadcrumb-item">
             <a href="#">Dashboard</a>
           </li>
-          <li class="breadcrumb-item active">Students</li>
+          <li class="breadcrumb-item active">User</li>
         </ol>
 
         <!-- Students DataTables  -->
