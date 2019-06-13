@@ -1,3 +1,21 @@
+<?php
+include "../dbconnect/connection.php";
+
+
+$id = $_GET['id'];
+
+
+$result = mysqli_query($conn, "SELECT * FROM student ORDER BY id=$id");
+while($res = mysqli_fetch_array($result))
+{
+    $name = $res['name'];
+    $address = $res['address'];
+    $phone = $res['phno'];
+    $email = $res['email'];
+    $course = $res['course_id'];
+   
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,36 +31,41 @@
 </style>
 <body>
 <div class="container">
-            <form class="form-horizontal" role="form" action="student/create.php" method="post">
+            <form class="form-horizontal" role="form" action="student/update.php" method="post">
                 <h2>Add New Student</h2>
+                 <div class="form-group">
+                    <div class="col-sm-9">
+                    <input type="hidden" id="id" name="id" value="<?php echo $id;?>"class="form-control">
+                    </div>
+                </div>
                 <div class="form-group">
                     <label for="name" class="col-sm-3 control-label">Student Name</label>
                     <div class="col-sm-9">
-                    <input type="text" id="name" name="name" placeholder="Full Name" class="form-control" autofocus>
+                    <input type="text" id="name" name="name" value="<?php echo $name;?>" placeholder="Full Name" class="form-control" autofocus>
                     </div>
                 </div>
                  <div class="form-group">
                     <label for="address" class="col-sm-3 control-label">Address</label>
                     <div class="col-sm-9">
-                    <textarea id="address" name="address" placeholder="Address" class="form-control"></textarea>
+                    <textarea id="address" name="address" class="form-control"><?php echo $address;?></textarea>
                     </div>
                 </div>
                  <div class="form-group">
                     <label for="phone" class="col-sm-3 control-label">Phone</label>
                     <div class="col-sm-9">
-                    <input type="text" id="phone" name="phone" placeholder="Phone" class="form-control">
+                    <input type="text" id="phone" name="phone" value="<?php echo $phone;?>" placeholder="Phone" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="email" class="col-sm-3 control-label">Email</label>
                     <div class="col-sm-9">
-                        <input type="email" id="email" name="email" placeholder="Email" class="form-control">
+                        <input type="email" id="email" name="email" value="<?php echo $email;?>" placeholder="Email" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="course" class="col-sm-3 control-label">Course</label>
                     <div class="col-sm-9">
-                        <select id="course" name="course" class="form-control">
+                        <select id="course" name="course" class="form-control" value="<?php echo $course;?>">
                             <option></option>
                             <option>Android Course</option>
                             <option>IOS Course</option>
@@ -57,9 +80,8 @@
                 </div> <!-- /.form-group -->
                 <div class="form-group">
                     <div class="col-sm-9 col-sm-offset-3">
-                        <button type="submit" class="btn btn-primary btn-block">Add</button>
+                        <button type="submit" name="update" class="btn btn-primary btn-block">Update</button>
                     </div>
-
                 </div>
             </form> <!-- /form -->
         </div> <!-- ./container -->
