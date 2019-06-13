@@ -19,7 +19,7 @@
         </ol>
 
         <!-- Students Form  -->
-       <?php include('teacher/form.php') ?>
+       <?php include('student/form.php') ?>
       </div>
       <!-- /.container-fluid -->
 
