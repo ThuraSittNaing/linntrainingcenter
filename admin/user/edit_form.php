@@ -35,9 +35,8 @@ while($res = mysqli_fetch_array($result))
             <form class="form-horizontal" role="form" action="user/update.php" method="post">
                 <h2>Add New User</h2>
                 <div class="form-group">
-                    <label for="id" class="col-sm-3 control-label">ID</label>
                     <div class="col-sm-9">
-                    <input type="text" id="id" name="id" value="<?php echo $id;?>"class="form-control">
+                    <input type="hidden" id="id" name="id" value="<?php echo $id;?>"class="form-control">
                     </div>
                 </div>
                 <div class="form-group">

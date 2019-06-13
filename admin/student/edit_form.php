@@ -34,9 +34,8 @@ while($res = mysqli_fetch_array($result))
             <form class="form-horizontal" role="form" action="student/update.php" method="post">
                 <h2>Add New Student</h2>
                  <div class="form-group">
-                    <label for="id" class="col-sm-3 control-label">ID</label>
                     <div class="col-sm-9">
-                    <input type="text" id="id" name="id" value="<?php echo $id;?>"class="form-control">
+                    <input type="hidden" id="id" name="id" value="<?php echo $id;?>"class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
@@ -48,7 +47,7 @@ while($res = mysqli_fetch_array($result))
                  <div class="form-group">
                     <label for="address" class="col-sm-3 control-label">Address</label>
                     <div class="col-sm-9">
-                    <input type="text" id="address" name="address" value="<?php echo $address;?>" placeholder="Address" class="form-control">
+                    <textarea id="address" name="address" class="form-control"><?php echo $address;?></textarea>
                     </div>
                 </div>
                  <div class="form-group">

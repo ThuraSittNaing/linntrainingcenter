@@ -24,7 +24,7 @@
                  <div class="form-group">
                     <label for="address" class="col-sm-3 control-label">Address</label>
                     <div class="col-sm-9">
-                    <input type="text" id="address" name="address" placeholder="Address" class="form-control">
+                    <textarea id="address" name="address" placeholder="Address" class="form-control"></textarea>
                     </div>
                 </div>
                  <div class="form-group">
