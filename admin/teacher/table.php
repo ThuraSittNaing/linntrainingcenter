@@ -8,7 +8,7 @@ $result = mysqli_query($conn,"SELECT * FROM teacher ORDER BY id ASC");
 <div class="card mb-3">
     <div class="card-header">
     <form action="add-teacher.php" >
-         <input type="submit" value="Add New Teacher" style="float:right;">
+         <button type="submit" style="float:right;"><img src="https://img.icons8.com/material-sharp/24/000000/add-user-male.png"></button>
     </form>
       <i class="fas fa-table"></i>Teacher Data
     </div>
@@ -24,7 +24,7 @@ $result = mysqli_query($conn,"SELECT * FROM teacher ORDER BY id ASC");
               <th>Address</th>
               <th>Phone</th>
               <th>Course_id</th>
-              <th>Action</th>
+              <th colspan="2"><center>Action</center></th>
             </tr>
           
 
@@ -37,7 +37,8 @@ $result = mysqli_query($conn,"SELECT * FROM teacher ORDER BY id ASC");
                echo "<td>".$res['address']."</td>";
                echo "<td>".$res['phno']."</td>";
                echo "<td>".$res['course_id']."</td>";
-               echo "<td><a href=\"editteacher.php?id=$res[id]\">Edit</a>|<a href=\"teacher/delete.php?id=$res[id]\" onclick=\"return confirm('Are you sure want to delete?')\">DELETE</a></td>";
+               echo "<td>  <a href=\"editteacher.php?id=$res[id]\"> <img src='https://img.icons8.com/material-sharp/24/000000/edit-calendar.png'></a>  </td>";
+               echo "<td><a href=\"teacher/delete.php?id=$res[id]\" onclick=\"return confirm('Are you sure want to delete?')\"><img src='https://img.icons8.com/material-rounded/24/000000/delete.png'></a></td>";
                echo "</tr>";
            }
            ?>
