@@ -57,7 +57,7 @@
 <body>
   <?php include("header/header.html");?>
 <!-- <h2 class="w3-center">Linn IT Solution Co.,Ltd.</h2> -->
-  <?php include("home/home.php");?>
+  <?php include("course/index.php");?>
   <?php include("footer/footer.html");?>
   
 </body>
