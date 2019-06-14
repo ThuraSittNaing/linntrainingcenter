@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<?php 
-
-	echo " your form design go herer...";
- ?>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,4 +66,3 @@
 
 </body>
 </html>
->>>>>>> master
