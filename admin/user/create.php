@@ -5,6 +5,7 @@ $username = $_POST['uname'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $password = $_POST['password'];
+$hash_password =md5($password);
 $createddate = $_POST['cdate'];
 $updateddate = $_POST['udate'];
 
@@ -16,7 +17,7 @@ $updateddate = $_POST['udate'];
 // echo "$updateddate";
 
 
-$result = mysqli_query($conn,"INSERT INTO user(username, email, phno, password, created_at, update_at)VALUES ('$username','$email','$phone','$password','$createddate','$updateddate')");
+$result = mysqli_query($conn,"INSERT INTO user(username, email, phno, password, created_at, update_at)VALUES ('$username','$email','$phone','$hash_password','$createddate','$updateddate')");
 var_dump($result);
 // var_dump($result);
 

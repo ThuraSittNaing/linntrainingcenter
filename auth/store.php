@@ -3,7 +3,7 @@ include "../dbconnect/connection.php";
 
 $username = $_POST['uname'];
 $email = $_POST['email'];
-$password = $_POST['psw'];
+$password = $_POST[md5('psw')];
 
 // echo"$email";
 // echo "<br>";
