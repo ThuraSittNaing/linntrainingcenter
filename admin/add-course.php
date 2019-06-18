@@ -1,4 +1,4 @@
-@@ -1,29 +0,0 @@
+
 <!-- include header -->
 <?php include('header.php') ?>
   <div id="wrapper">
@@ -25,6 +25,6 @@
       <!-- /.container-fluid -->
 
     <!-- include footer -->
-<?php include('footer.php') ?>
+<?php include('footer.php') ?> 
 
      
