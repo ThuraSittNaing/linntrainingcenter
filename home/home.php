@@ -53,7 +53,7 @@
                 color: white;
                 border-radius: 0 5px 5px 0;
             }
-            @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+            @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
 
             @import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
             .box > .icon { 
@@ -132,6 +132,7 @@
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
             }
+            
 
             
 </style>
@@ -181,15 +182,20 @@
               
                   <h2 class="title">Mobile Service</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                  <h4><ol type="1"><br>
+                        <li>Software Service</li><br><br><br>
+                        <li>Hardware Service</li><br><br><br>
+                      </ol></h4>
                   </p>
-                  <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
+                  <a  href="home/mobile.php" style="color:#000000;"><h6> More Info</h6></a>
 
                 </div>
                 </div>
                 </div>
                 <div class="space"></div>
-                </div> 	    
+                </div> 	 
+
+
           <div class="col-md-3 col-xs-4">
           
                 <div class="box">							
@@ -199,9 +205,16 @@
             
                 <h2 class="title">Printer Service</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                <p>
+                <h4><ol type="1"><br>
+                 <li>Laser Printer Service</li><br><br>
+                 <li>Ink-Jet Printer Service</li><br><br>
+                 <li>Dot-Matrix Printer Service</li><br><br>
+                 <li>All in one printer Service</li>
+               </ol></h4>
                 </p>
-                <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
+                </p>
+                <a  href="nextindex.php" style="color:#000000;"><h6> More Info</h6></a>
     
           <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 </div>
@@ -209,7 +222,9 @@
                 </div>
                 </div>
                 <div class="space"></div>
-                </div> 	    
+                </div> 	 
+
+
           <div class="col-md-3 col-xs-4">
           
             <div class="box">							
@@ -219,9 +234,12 @@
             
                 <h2 class="title">System Service</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                <h4><ol type="1"><br>
+                 <li>Software Service</li><br><br><br>
+                 <li>Hardware Service</li><br><br><br>
+               </ol></h4>
                 </p>
-                <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
+                <a  href="home/system.php" style="color:#000000;"><h6> More Info</h6></a>
       
           <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           
@@ -231,8 +249,9 @@
           </div>
           <div class="space"></div>
           </div> 
+
+
           <div class="col-md-3 col-xs-4">
-          
           <div class="box">    						
           <div class="icon">
           <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
@@ -240,9 +259,14 @@
             
               <h2 class="title">Internet Service</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+               <h4><ol type="1"><br>
+                 <li>Wireless Service</li><br><br>
+                 <li>FTTX Service</li><br><br>
+                 <li>Prepaid Card</li><br><br>
+               </ol></h4>
               </p>
-              <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
+              <a  target="_blank" href="http://mm-link.net/our-services/" style="color:#000000;"><h6> More Info</h6></a>
+              <!-- <link rel="parent" href="http://mm-link.net/our-services/" target="_blank" > -->
      
           <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           </div>
