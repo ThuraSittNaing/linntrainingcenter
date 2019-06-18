@@ -109,9 +109,11 @@
     <ul>
 		  <li><a class="active" href="../index.php">Home</a></li>
 		  <li><a class="active" href="../course.php">Course</a></li>
-		  <li><a class="active" href="../news.php">News</a></li>
+          <li><a class="active" href="../news.php">News</a></li>
+          <li><a class="active" href="../contact.php">Contact</a></li>
+          <li><a class="active" href="../about.php">About</a></li>
 		  <li style="float:right"><a class="active" href="../login.php">Login</a></li>
-		  <li style="float:right"><a class="active" href="../register.php">Register</a></li>
+		  
 	</ul>
 </div><br>
  <h1 style="color:#751B08"><center>Mobile Service</center></h1><br>
