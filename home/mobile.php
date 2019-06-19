@@ -21,6 +21,8 @@
             li {
             float: left;
             border-right:0px solid #bbb;
+            font-size: 15px;
+            color:#751B08;
             }
 
             li:last-child {
@@ -33,6 +35,7 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            font-size: 15px;
             }
 
             li a:hover {
@@ -116,10 +119,10 @@
 		  
 	</ul>
 </div><br>
- <h1 style="color:#751B08"><center>Mobile Service</center></h1><br>
- <h4 style="color:#751B08; margin-left:40px;" >Software Service</h4><br>
+ <h3 style="color:#751B08"><center>Mobile Service</center></h3><br>
+ <h5 style="color:#751B08; margin-left:40px;" >Software Service</h5><br>
  <div class="row" style="margin-left:80px;">
-        <div class="col-lg-6">
+        <div class="col-lg-6"><br>
             <ol style="color:#555">
                 <li> Mi Account Lock Bypass/Official</li><br>
                 <li>FRP Lock</li><br>
@@ -142,10 +145,10 @@
             </div> -->
         <!-- </div>
         </div> -->
- </div>  <br><br><br><br><br>      
+ </div>  <br><br>      
 
 
-<h4 style="color:#751B08; margin-left:40px;">Hardware Service</h4><br><br>
+<h5 style="color:#751B08; margin-left:40px;">Hardware Service</h5><br>
     <div class="row" style="margin-left:80px;">
     
         <div class="flip-box col-lg-3">
@@ -171,7 +174,7 @@
                
         <ol>
      </div>
-</div><br><br><br><br><br><br><br>
+</div><br><br><br>
 <?php include("../footer/footer.html");?>
 </body>
 </html>
