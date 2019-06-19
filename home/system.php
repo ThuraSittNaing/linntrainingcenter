@@ -21,6 +21,8 @@
             li {
             float: left;
             border-right:0px solid #bbb;
+            font-size: 15px;
+            color:#751B08
             }
 
             li:last-child {
@@ -33,6 +35,7 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            font-size: 15px;
             }
 
             li a:hover {
@@ -116,17 +119,18 @@
 		  <li style="float:right"><a class="active" href="../login.php">Login</a></li>
 	</ul>
 </div><br>
- <h1 style="color:#751B08"><center>System Service</center></h1><br>
- <h4 style="color:#751B08; margin-left:40px;" >Software Service</h4><br><br>
+ <h3 style="color:#751B08"><center>System Service</center></h3><br>
+ <h5 style="color:#751B08; margin-left:40px;" >Software Service</h5>
  <div class="row" style="margin-left:80px;">
-        <div class="col-lg-6">
+        <div class="col-lg-6"><h6><br>
             <ol style="color:#555">
+            <br><br>
                 <li>Microsoft Office installation</li><br>
                 <li>Microsoft Window installation</li><br>
                 <li>Network Unlock</li><br>
                 <li>Application Install</li><br>
-                <li>Myanmar Font Installation</li><br>
-            <ol>
+                <li>Myanmar Font Installation</li><br><br><br><br>
+            <ol></h6>
         </div>
        
         <div class="flip-box col-lg-6">
@@ -139,10 +143,10 @@
             </div> -->
         <!-- </div>
         </div> -->
- </div>  <br><br><br><br><br>      
+ </div>  <br>      
 
 
-<h4 style="color:#751B08; margin-left:40px;">Hardware Service</h4><br><br><br>
+<h5 style="color:#751B08; margin-left:40px;">Hardware Service</h5><br>
     <div class="row" style="margin-left:80px;">
     
         <div class="flip-box col-lg-2" >
@@ -157,8 +161,8 @@
         </div> -->
         <div class="col-lg-4">
         </div>
-        <div class="col-lg-6">
-        <ol style="color:#555"><br><br>
+        <div class="col-lg-6"><h6><br><br>
+        <ol style="color:#555">
                <li>Touch Pad Service</li><br>
                <li>Water Damage Service</li><br>
                <li>Battery Service</li><br>
@@ -166,9 +170,9 @@
                <li>LCD Service</li><br>
                <li>Keyboard Service</li><br>
                
-        <ol>
+        <ol></h6>
      </div>
-</div><br><br><br><br><br><br><br>
+</div><br><br><br><br>
 <?php include("../footer/footer.html");?>
 </body>
 </html>

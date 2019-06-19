@@ -22,7 +22,7 @@
             background-color:#AAAAFF;
             }
 
-             {
+            li{
             float: left;
             border-right:0px solid #bbb;
             }
@@ -58,10 +58,8 @@
 
             @import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
             .box > .icon { 
-                text-align: 
-                center; 
-                position: 
-                relative; 
+                text-align:center; 
+                position:relative; 
                 }
             .box > .icon > .image { 
                 position: relative; 
@@ -90,7 +88,7 @@
                 }
             .box > .icon > .info > h3.title { 
                 font-family: sans-serif !important; 
-                font-size: 16px; 
+                font-size: 25px; 
                 color: #222; 
                 font-weight: 500; 
                 }
@@ -135,16 +133,24 @@
             }
                 *{box-sizing: border-box;}
                 body {font-family: Verdana, sans-serif;}
-                .mySlides {display: none;}
-                img {vertical-align: middle;}
+                /* .mySlides {display: none;} */
+                /* img {vertical-align: middle;} */
 
                 /* Slideshow container */
-                .slideshow-container {
-                  max-width: 1000px;
+                .slideshow-container { 
                   position: relative;
-                  margin: auto;
+                  margin-left:75px;
+                  width:100%; 
+                  height:400px;
                 }
-
+                /* .mySlidesfade{
+                  width:1000px; 
+                  height:400px;
+                }
+                .mySlidesfade1{
+                  width:1000px; 
+                  height:400px;
+                } */
                 /* Caption text */
                 .text {
                   color: #f2f2f2;
@@ -183,18 +189,18 @@
                 /* Fading animation */
                 .fade {
                   -webkit-animation-name: fade;
-                  -webkit-animation-duration: 3s;
+                  -webkit-animation-duration: 5s;
                   animation-name: fade;
-                  animation-duration: 3s;
+                  animation-duration: 5s;
                 }
 
                 @-webkit-keyframes fade {
-                  from {opacity: .4} 
+                  from {opacity: 1} 
                   to {opacity: 1}
                 }
 
                 @keyframes fade {
-                  from {opacity: .4} 
+                  from {opacity: 1} 
                   to {opacity: 1}
                 }
 
@@ -203,33 +209,29 @@
                   .text {font-size: 11px}
                 }
             
-
+               
             
 </style>
 </head>
 <body>
     <br><br>
-    <div class="container">
+    
     <div class="slideshow-container">
 
       <div class="mySlides fade">
-        <div class="numbertext">1 / 4</div>
-        <img src="image/HO1.jpg" style="width:1000px; height:400px;">
+        <img src="image/HO4.jpg">
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">2 / 4</div>
-        <img src="image/HO.jpg" style="width:1000px; height:400px;">
+        <img src="image/HO5.jpg">
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">3 / 4</div>
-        <img src="image/HO1.jpg" style="width:1000px; height:400px;">
+        <img src="image/HO4.jpg">
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">4 / 4</div>
-        <img src="image/HO.jpg" style="width:1000px; height:400px;">
+        <img src="image/HO5.jpg">
       </div>
     </div>
     <br>
@@ -241,7 +243,7 @@
     <span class="dot"></span>
   </div>
 
-
+  <div class="container">
     <!-- <div class="w3-content w3-display-container">
       <img class="mySlides" src="image/HO.jpg" style="width:100%">
       <img class="mySlides" src="image/HO1.jpg" style="width:100%">
@@ -303,12 +305,12 @@
                 <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
                 <div class="info"><br>
               
-                  <h2 class="title">Mobile Service</h2>
+                  <h3 class="title">Mobile Service</h3>
                   <p>
-                  <h4><ol type="1"><br>
-                        <li>Software Service</li><br><br><br>
-                        <li>Hardware Service</li><br><br><br>
-                      </ol></h4>
+                  <h5><ol type="1"><br><br>
+                        <li>Software Service</li><br><br>
+                        <li>Hardware Service</li><br><br><br><br>
+                      </ol></h5>
                   </p>
                   <a  href="home/mobile.php" style="color:#000000;"><h6> More Info</h6></a>
 
@@ -326,14 +328,14 @@
                 <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
                 <div class="info"><br>
             
-                <h2 class="title">Printer Service</h2>
+                <h3 class="title">Printer Service</h3>
                 <p>
                 <p>
-                <h5><ol type="1"><br>
+                <h5><ol type="1"><br><br>
                  <li>Laser Printer Service</li><br><br>
                  <li>Ink-Jet Printer Service</li><br><br>
                  <li>Dot-Matrix Printer Service </li><br><br>
-                 <li>All in one printer Service</li><br><br>
+                 <li>All in one printer Service</li>
                </ol></h5>
                 </p>
                 </p>
@@ -355,12 +357,12 @@
               <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
               <div class="info"><br>
             
-                <h2 class="title">System Service</h2>
+                <h3 class="title">System Service</h3>
                 <p>
-                <h4><ol type="1"><br>
-                 <li>Software Service</li><br><br><br>
-                 <li>Hardware Service</li><br><br><br>
-               </ol></h4>
+                <h5><ol type="1"><br><br>
+                 <li>Software Service</li><br><br>
+                 <li>Hardware Service</li><br><br><br><br>
+               </ol></h5>
                 </p>
                 <a  href="home/system.php" style="color:#000000;"><h6> More Info</h6></a>
       
@@ -380,13 +382,13 @@
           <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
           <div class="info"><br>
             
-              <h2 class="title">Internet Service</h2>
+              <h3 class="title">Internet Service</h3>
               <p>
-               <h4><ol type="1"><br>
+               <h5><ol type="1"><br><br>
                  <li>Wireless Service</li><br><br>
                  <li>FTTX Service</li><br><br>
                  <li>Prepaid Card</li><br><br>
-               </ol></h4>
+               </ol></h5>
               </p>
               <a  target="_blank" href="http://mm-link.net/our-services/" style="color:#000000;"><h6> More Info</h6></a>
               <!-- <link rel="parent" href="http://mm-link.net/our-services/" target="_blank" > -->
