@@ -106,7 +106,6 @@
     </style>
 </head>
 <body>
-
 <div class="header">
     <img src="../image/linnlogo.jpg" width="100px" height="90px">
     <b>Linn It Solution Co.,Ltd.</b>
@@ -119,6 +118,7 @@
 		  <li style="float:right"><a class="active" href="../login.php">Login</a></li>
 	</ul>
 </div><br>
+<div class="container">
  <h3 style="color:#751B08"><center>System Service</center></h3><br>
  <h5 style="color:#751B08; margin-left:40px;" >Software Service</h5>
  <div class="row" style="margin-left:80px;">
@@ -159,9 +159,9 @@
             </div> -->
         <!-- </div>
         </div> -->
-        <div class="col-lg-4">
+        <div class="col-lg-5">
         </div>
-        <div class="col-lg-6"><h6><br><br>
+        <div class="col-lg-5"><h6><br><br>
         <ol style="color:#555">
                <li>Touch Pad Service</li><br>
                <li>Water Damage Service</li><br>
@@ -172,7 +172,8 @@
                
         <ol></h6>
      </div>
-</div><br><br><br><br><br><br><br>
+</div><br><br><br><br>
+</div>
 <?php include("../footer/footer.html");?>
 </body>
 </html>
