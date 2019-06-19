@@ -9,4 +9,7 @@
     }
     echo json_encode($array);
     mysqli_close($con);
+
+
+    
 ?>

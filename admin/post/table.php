@@ -7,7 +7,7 @@ $result = mysqli_query($conn,"SELECT  * FROM post ORDER BY id ASC");
 <div class="card mb-3">
     <div class="card-header">
         <form action= "add-post.php">
-        <button type= "submit"  style="float:right"><img src="https://img.icons8.com/material-sharp/24/000000/add-user-male.png">
+        <button type= "submit"  style="float:right"><img src="https://img.icons8.com/metro/26/000000/add-file.png">
 </button>
       <i class="fas fa-table"></i>
       Post Data </div>
