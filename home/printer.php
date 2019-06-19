@@ -35,38 +35,40 @@
 </style>
 </head>
 <body>
+  <div class="container">
 <br><br>
-<h1 class="title">Printer Service</h1><br>
+<h1 class="title"><center>Printer Service</center></h1><br><br>
 <table>
   <tr>
-    <th><center><h3>Category</h3></center></th>
-    <th><center><h3>Photo</h3></center></th>
-    <th><center><h3>Service</h3></center></th>
+    <th><center><h4>Category</h4></center></th>
+    <th><center><h4>Photo</h4></center></th>
+    <th><center><h4>Service</h4></center></th>
   </tr>
   <tr></tr>
   <tr>
-    <td><h4>Laser Printer</h4></td>
+    <td><h5>Laser Printer</h5></td>
     <td><img src="image/printer1.jpg" width="500px" height="200px"></td>
     <td>Laser Printer Service</td>
   </tr>
   <tr></tr>
   <tr>
-    <td><h4>Ink-Jet Printer</h4></td>
+    <td><h5>Ink-Jet Printer</h5></td>
     <td><img src="image/printer2.jpg" width="400px" height="200px"></td>
     <td>Ink-Jet Printer Service</td>
   </tr>
   <tr></tr>
   <tr>
-    <td><h4>Dot Matrix Printer</h4></td>
+    <td><h5>Dot Matrix Printer</h5></td>
     <td><img src="image/printer3.jpg" width="300px" height="200px"></td>
     <td>Dot Matrix Printer Service</td>
   </tr>
   <tr></tr>
   <tr>
-    <td><h4>All in one Printer</h4></td>
+    <td><h5>All in one Printer</h5></td>
     <td><img src="image/printer4.jpg" width="400px" height="200px"></td>
     <td>All in one Printer Service</td>
   </tr>
 </table><br>
+</div>
 </body>
 </html>
