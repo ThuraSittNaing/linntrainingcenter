@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>    
 
            .mySlides {display:none;}
@@ -132,42 +133,164 @@
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
             }
+                *{box-sizing: border-box;}
+                body {font-family: Verdana, sans-serif;}
+                .mySlides {display: none;}
+                img {vertical-align: middle;}
+
+                /* Slideshow container */
+                .slideshow-container {
+                  max-width: 1000px;
+                  position: relative;
+                  margin: auto;
+                }
+
+                /* Caption text */
+                .text {
+                  color: #f2f2f2;
+                  font-size: 15px;
+                  padding: 8px 12px;
+                  position: absolute;
+                  bottom: 8px;
+                  width: 100%;
+                  text-align: center;
+                }
+
+                /* Number text (1/3 etc) */
+                .numbertext {
+                  color: #f2f2f2;
+                  font-size: 12px;
+                  padding: 8px 12px;
+                  position: absolute;
+                  top: 0;
+                }
+
+                /* The dots/bullets/indicators */
+                .dot {
+                  height: 15px;
+                  width: 15px;
+                  margin: 0 2px;
+                  background-color: #bbb;
+                  border-radius: 50%;
+                  display: inline-block;
+                  transition: background-color 0.6s ease;
+                }
+
+                /* .active {
+                  background-color: #717171;
+                } */
+
+                /* Fading animation */
+                .fade {
+                  -webkit-animation-name: fade;
+                  -webkit-animation-duration: 3s;
+                  animation-name: fade;
+                  animation-duration: 3s;
+                }
+
+                @-webkit-keyframes fade {
+                  from {opacity: .4} 
+                  to {opacity: 1}
+                }
+
+                @keyframes fade {
+                  from {opacity: .4} 
+                  to {opacity: 1}
+                }
+
+                /* On smaller screens, decrease text size */
+                @media only screen and (max-width: 300px) {
+                  .text {font-size: 11px}
+                }
             
 
             
 </style>
 </head>
 <body>
-  <br><br>
-  <div class="container">
-  <div class="w3-content w3-display-container">
-    <img class="mySlides" src="image/HO.jpg" style="width:100%">
-    <img class="mySlides" src="image/HO1.jpg" style="width:100%">
-    <img class="mySlides" src="image/HO.jpg" style="width:100%">
-    <img class="mySlides" src="image/HO1.jpg" style="width:100%">
+    <br><br>
+    <div class="container">
+    <div class="slideshow-container">
 
-    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="image/HO1.jpg" style="width:1000px; height:400px;">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="image/HO.jpg" style="width:1000px; height:400px;">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="image/HO1.jpg" style="width:1000px; height:400px;">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="image/HO.jpg" style="width:1000px; height:400px;">
+      </div>
+    </div>
+    <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>
   </div>
 
-  <script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
 
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
+    <!-- <div class="w3-content w3-display-container">
+      <img class="mySlides" src="image/HO.jpg" style="width:100%">
+      <img class="mySlides" src="image/HO1.jpg" style="width:100%">
+      <img class="mySlides" src="image/HO.jpg" style="width:100%">
+      <img class="mySlides" src="image/HO1.jpg" style="width:100%">
 
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      if (n > x.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = x.length}
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div> -->
+
+    <!-- <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
       }
-      x[slideIndex-1].style.display = "block";  
-    }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+    </script> -->
+    <script>
+          var slideIndex = 0;
+          showSlides();
+
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
   </script>
 
   <br><br>
@@ -206,12 +329,12 @@
                 <h2 class="title">Printer Service</h2>
                 <p>
                 <p>
-                <h4><ol type="1"><br>
+                <h5><ol type="1"><br>
                  <li>Laser Printer Service</li><br><br>
                  <li>Ink-Jet Printer Service</li><br><br>
-                 <li>Dot-Matrix Printer Service</li><br><br>
-                 <li>All in one printer Service</li>
-               </ol></h4>
+                 <li>Dot-Matrix Printer Service </li><br><br>
+                 <li>All in one printer Service</li><br><br>
+               </ol></h5>
                 </p>
                 </p>
                 <a  href="nextindex.php" style="color:#000000;"><h6> More Info</h6></a>

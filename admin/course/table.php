@@ -10,7 +10,8 @@ $result = mysqli_query($conn, "SELECT * FROM course");
     <div class="card-header">
       <i class="fas fa-table"></i>
       <form method="post" action="add-course.php">
-      <button type="submit" name="btnadd" style="float:right"><img src="https://img.icons8.com/material-sharp/24/000000/add-user-male.png"></button>
+      <button type="submit" name="btnadd" style="float:right"><img src="https://img.icons8.com/metro/26/000000/add-file.png"></button> 
+      <i class="fas fa-table"></i>
       Course Data </div>
     <div class="card-body">
       <div class="table-responsive">
