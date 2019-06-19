@@ -119,6 +119,7 @@
 		  
 	</ul>
 </div><br>
+<div class="container">
  <h3 style="color:#751B08"><center>Mobile Service</center></h3><br>
  <h5 style="color:#751B08; margin-left:40px;" >Software Service</h5><br>
  <div class="row" style="margin-left:80px;">
@@ -175,6 +176,10 @@
         <ol>
      </div>
 </div><br><br><br>
+<<<<<<< Updated upstream
+=======
+</div>
+>>>>>>> Stashed changes
 <?php include("../footer/footer.html");?>
 </body>
 </html>
