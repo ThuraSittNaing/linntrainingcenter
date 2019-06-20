@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,28 +9,29 @@
 </head>
 <body>
     <div class="container">
-            <form class="form-horizontal" role="form" action="course/insert.php" method="post">
-                <h2>Registration Form</h2>
+            <form class="form-horizontal" role="form" action="course/insert.php" method="post" enctype="multipart/form-data">
+                <h2>Add Course Form</h2>
+                <input type="hidden" id="id" name="id">
                 <div class="form-group">
-                    <label for="firstName" class="col-sm-3 control-label">Full Name</label>
+                    <label for="firstName" class="col-sm-3 control-label">Course Name</label>
                     <div class="col-sm-9">
-                        <input type="text"name="fullname" id="firstName" placeholder="Full Name" class="form-control" autofocus>
+                        <input type="text"name="fullname" id="firstName" placeholder="Course Name" class="form-control" autofocus>
                         <span class="help-block">Intermediate Course,Design Course,....</span>
                     </div>
                 </div>
                <div class="form-group">
-                    <label for="" class="col-sm-3 control-label">Descriprion</label>
+                    <label for="" class="col-sm-3 control-label">Description</label>
                     <div class="col-sm-9">
-                        <input type="text" name="des" id="btndescription" class="form-control">
+                        <input type="textarea" name="desc" id="btndescription" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="" class="col-sm-3 control-label">Photo</label>
                     <div class="col-sm-9">
-                        <input type="file" name="photo" id="btndescription" class="form-control"value="choose file">
+                        <input type="file" name="photo" id="btnphoto" class="form-control"value="choose file">
                     </div>
                 </div>
-                  <!-- /.form-group -->
+                
                   <div class="form-group">
                     <label for="" class="col-sm-3 control-label">Duration</label>
                     <div class="col-sm-9">
@@ -51,14 +50,14 @@
                         <input type="time" name="sec" id="btnsection1" class="form-control">
                     </div>
                 </div>
-                <!-- /.form-group -->
+               
                 <div class="form-group">
                     <div class="col-sm-9 col-sm-offset-3">
                         <button type="submit" name="addbtn" class="btn btn-primary btn-block">Add</button>
                     </div>
                 </div>
-            </form> <!-- /form -->
-        </div> <!-- ./container -->	<script type="text/javascript">
+            </form> 
+        </div> 	<script type="text/javascript">
 		</script>
 </body>
 </html>
