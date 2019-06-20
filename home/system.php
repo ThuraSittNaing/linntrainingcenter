@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Mobile</title>
+
+    <title>System</title>
+
     <style>
             .mySlides {display:none;}
 
@@ -57,6 +59,7 @@
                     }
             b{
                         color:#999900;
+                        font-size: 15px;
                     }
             .w3-content{
                         max-width: 100% !important;
@@ -84,7 +87,12 @@
             .flip-box:hover .flip-box-inner {
             transform: rotateX(180deg);
             }
-
+            h3{
+                font-size:25px;
+            }
+            h5{
+                font-size:18px;
+            }
             /* .flip-box-front, .flip-box-back {
             position: fixed;
             width: 0px;
@@ -104,7 +112,7 @@
     </style>
 </head>
 <body>
-<div class="header">
+<div class="header col-xs-12">
     <img src="../image/linnlogo.jpg" width="100px" height="90px">
     <b>Linn It Solution Co.,Ltd.</b>
     <ul>
@@ -112,54 +120,52 @@
 		  <li><a class="active" href="../course.php">Course</a></li>
           <li><a class="active" href="../news.php">News</a></li>
           <li><a class="active" href="../contact.php">Contact</a></li>
-          <li><a class="active" href="../about.php">About</a></li>
-		  <li style="float:right"><a class="active" href="../login.php">Login</a></li>
+          <!-- <li><a class="active" href="../about.php">About</a></li>
+		  <li style="float:right"><a class="active" href="../login.php">Login</a></li> -->
 	</ul>
 </div><br>
 <div class="container">
  <h3 style="color:#751B08"><center>System Service</center></h3><br>
- <h5 style="color:#751B08; margin-left:40px;" >Software Service</h5>
- <div class="row" style="margin-left:80px;">
-        <div class="col-lg-6"><h6><br>
+ <h5 style="color:#751B08; " >Software Service</h5>
+ <div class="row">
+        <div class="col-lg-6 col-sm-12"><h6>
             <ol style="color:#555">
             <br><br>
                 <li>Microsoft Office installation</li><br>
                 <li>Microsoft Window installation</li><br>
                 <li>Network Unlock</li><br>
                 <li>Application Install</li><br>
-                <li>Myanmar Font Installation</li><br><br><br><br>
+                <li>Myanmar Font Installation</li><br><br>
             <ol></h6>
         </div>
        
-        <div class="flip-box col-lg-6">
+        <div class="flip-box col-lg-6 col-sm-12">
         <!-- <div class="flip-box-inner">
             <div class="flip-box-front "> -->
-            <img src="../image/mobile3.jpg"  width="500px" height="300px">
+            <img src="../image/mobile3.jpg"  width="330px" height="180px">
             </div>
             <!-- <div class="flip-box-back">
             <img src="../image/mobile2.jpg"  width="400px" height="300px">
             </div> -->
         <!-- </div>
         </div> -->
- </div>  <br>      
-
-
-<h5 style="color:#751B08; margin-left:40px;">Hardware Service</h5><br>
-    <div class="row" style="margin-left:80px;">
+ </div> <br><br><br><br>     
+ <h5 style="color:#751B08;">Hardware Service</h5><br>
+    <div class="row">
     
-        <div class="flip-box col-lg-2" >
+        <div class="flip-box col-lg-6 col-sm-12" >
         <!-- <div class="flip-box-inner">
             <div class="flip-box-front"> -->
-            <img src="../image/mobile5.jpg"  width="500px" height="300px">
-            </div>
+            <img src="../image/mobile5.jpg"  width="330px" height="180px">
+            </div><br><br><br><br><br><br>
             <!-- <div class="flip-box-back">
             <img src="../image/mobile4.jpg" width="400px" height="300px">
             </div> -->
         <!-- </div>
         </div> -->
-        <div class="col-lg-5">
-        </div>
-        <div class="col-lg-5"><h6><br><br>
+        <!-- <div class="col-lg-5 col-xs-12">
+        </div> -->
+        <div class="col-lg-6 col-sm-6"><h6><br>
         <ol style="color:#555">
                <li>Touch Pad Service</li><br>
                <li>Water Damage Service</li><br>
@@ -170,8 +176,8 @@
                
         <ol></h6>
      </div>
-</div><br><br><br><br>
 </div>
+</div><br>
 <?php include("../footer/footer.html");?>
 </body>
 </html>

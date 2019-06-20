@@ -13,7 +13,9 @@
 <style>    
 
            .mySlides {display:none;}
-
+            h3{
+              font-size:25px;
+            }
             ul {
             list-style-type: none;
             margin: 0;
@@ -139,9 +141,9 @@
                 /* Slideshow container */
                 .slideshow-container { 
                   position: relative;
-                  margin-left:75px;
+                  /* margin-left:75px; */
                   width:100%; 
-                  height:400px;
+                  /* height:400px; */
                 }
                 /* .mySlidesfade{
                   width:1000px; 
@@ -208,41 +210,41 @@
                 @media only screen and (max-width: 300px) {
                   .text {font-size: 11px}
                 }
-            
+                #img{
+                  width:100%;
+                  /* height:380px; */
+                }
                
             
 </style>
 </head>
 <body>
+  <div class="container">
     <br><br>
-    
     <div class="slideshow-container">
 
-      <div class="mySlides fade">
-        <img src="image/HO4.jpg">
+      <div class="mySlides fade ">
+        <img src="image/HO4.jpg" id="img">
       </div>
 
       <div class="mySlides fade">
-        <img src="image/HO5.jpg">
+        <img src="image/HO5.jpg" id="img">
       </div>
 
       <div class="mySlides fade">
-        <img src="image/HO4.jpg">
+        <img src="image/HO4.jpg" id="img">
       </div>
 
       <div class="mySlides fade">
-        <img src="image/HO5.jpg">
+        <img src="image/HO5.jpg" id="img">
       </div>
-    </div>
-    <br>
-
+      </div><br>
   <div style="text-align:center">
     <span class="dot"></span> 
     <span class="dot"></span> 
     <span class="dot"></span> 
     <span class="dot"></span>
-  </div>
-
+  </div></div>
   <div class="container">
     <!-- <div class="w3-content w3-display-container">
       <img class="mySlides" src="image/HO.jpg" style="width:100%">
@@ -294,11 +296,9 @@
             setTimeout(showSlides, 2000); // Change image every 2 seconds
           }
   </script>
-
-  <br><br>
         
           <div class="row">
-              <div class="col-md-3 col-xs-4">
+              <div class="col-lg-3 col-xs-12">
             
                 <div class="box">							
                 <div class="icon">
@@ -321,7 +321,7 @@
                 </div> 	 
 
 
-          <div class="col-md-3 col-xs-4">
+          <div class="col-lg-3 col-xs-12">
           
                 <div class="box">							
                 <div class="icon">
@@ -339,7 +339,7 @@
                </ol></h5>
                 </p>
                 </p>
-                <a  href="nextindex.php" style="color:#000000;"><h6> More Info</h6></a>
+                <a  href="home/printer.php" style="color:#000000;"><h6> More Info</h6></a>
     
           <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 </div>
@@ -350,7 +350,7 @@
                 </div> 	 
 
 
-          <div class="col-md-3 col-xs-4">
+          <div class="col-lg-3 col-xs-12">
           
             <div class="box">							
             <div class="icon">
@@ -376,7 +376,7 @@
           </div> 
 
 
-          <div class="col-md-3 col-xs-4">
+          <div class="col-lg-3 col-xs-12">
           <div class="box">    						
           <div class="icon">
           <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
@@ -402,44 +402,44 @@
           </div> 
           </div></div>		    
           <br><br><br>
-          <div class="row" style="margin-left:300px;">
-          <div class="col-lg-3">
-                  <center>
-                  <div class="card bg-info"><br>
-                  <img src="https://img.icons8.com/ios/50/000000/place-marker.png">
-                  <!-- <img src="image/location1.jpg" alt="location" style="width:30px; height:30px;" > -->
-                  အမွတ္(၁၄/၅၈၅)၊ေပါင္းေလာင္း<br>(၄)လမ္း၊ပ်ဥ္းမနားျမို့။ <br>
-                  <!-- <img src="image/phone.jpg" alt="location" style="width:30px; height:30px;" > -->
-                  ၀၆၇-၂၂၈၈၄၊၂၃၈၈၄၊၂၄၈၈၄။<br><br>
-                  </div><br>
-                  </center>
-            </div>
+          <div class="container">
+              <div class="row">
+              <div class="col-lg-1"></div>
+              <div class="col-lg-3 ">
+                      <center>
+                      <div class="card bg-info  col-xs-12"><br>
+                      <img src="https://img.icons8.com/ios/50/000000/place-marker.png">
+                      <!-- <img src="image/location1.jpg" alt="location" style="width:30px; height:30px;" > -->
+                      အမွတ္(၁၄/၅၈၅)၊ေပါင္းေလာင္း(၄)လမ္း၊ပ်ဥ္းမနားျမို့။ <br>
+                      <!-- <img src="image/phone.jpg" alt="location" style="width:30px; height:30px;" > -->
+                      ၀၆၇-၂၂၈၈၄၊၂၃၈၈၄၊၂၄၈၈၄။<br><br> 
+                      </div><br>
+                      </center>
+                </div>
+             
+                <div class="col-lg-3">
+                      <center>
+                      <div class="card bg-info  col-xs-12" ><br>
+                      <img src="https://img.icons8.com/ios/50/000000/place-marker.png">
+                      <!-- <img src="image/location1.jpg" alt="location" style="width:30px; height:30px;" > -->
+                      အမွတ္(၁၁/၇)၊ <br> ဗိုလ္ခ်ုပ္လမ္း၊ပ်ဥ္းမနားျမို့။ <br>
+                      ၀၆၇-၂၄၄၈၈၊၂၆၈၈၄<br><br>
+                      </div><br>
+                      </center>
+                </div>
 
-
-            <div class="col-lg-3">
-                  <center>
-                  <div class="card bg-info"><br>
-                  <img src="https://img.icons8.com/ios/50/000000/place-marker.png">
-                  <!-- <img src="image/location1.jpg" alt="location" style="width:30px; height:30px;" > -->
-                  အမွတ္(၁၁/၇)၊ <br> ဗိုလ္ခ်ုပ္လမ္း၊ပ်ဥ္းမနားျမို့။ <br>
-                  ၀၆၇-၂၄၄၈၈၊၂၆၈၈၄<br><br>
-                  </div><br>
-                  </center>
-            </div>
-
-
-            <div class="col-lg-3">
-                  <center>
-                  <div class="card bg-info"><br>
-                  <img src="https://img.icons8.com/ios/50/000000/place-marker.png">
-                  <!-- <img src="image/phone.jpg" alt="location" style="width:30px; height:30px;" > -->
-                  အမွတ္(၁၁၇)၊သေျပကုန္း <br> ရပ္ကြက္၊ေနျပည္ေတာ္။ <br>
-                  ၀၆၇-၂၂၈၈၄၊၂၃၈၈၄၊၂၄၈၈၄။ <br><br>
-                  </div><br><br>
-                  </center>
-            </div>                                                                                                                                                                                                                                                                                                                                               
-    </div>
-
+                <div class="col-lg-3 ">
+                      <center>
+                      <div class="card bg-info  col-xs-12"><br>
+                      <img src="https://img.icons8.com/ios/50/000000/place-marker.png">
+                      <!-- <img src="image/phone.jpg" alt="location" style="width:30px; height:30px;" > -->
+                      အမွတ္(၁၁၇)၊သေျပကုန္း <br> ရပ္ကြက္၊ေနျပည္ေတာ္။ <br>
+                      ၀၆၇-၂၂၈၈၄၊၂၃၈၈၄၊၂၄၈၈၄။ <br><br>
+                      </div><br><br>
+                      </center>
+                </div>                                                                                                                                                                                                                                                                                                                                               
+              </div>
+          </div><br>
 </body>
 </html>
 
