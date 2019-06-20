@@ -40,7 +40,9 @@
 
             li a:hover {
             background-color:#CCCCFF;
-
+            }
+            li{
+                font-size: 15px;
             }
             #mySidenav a {
                 position: absolute;
@@ -59,6 +61,7 @@
                     }
             b{
                         color:#999900;
+                        font-size: 15px;
                     }
             .w3-content{
                         max-width: 100% !important;
@@ -98,7 +101,12 @@
             background-color: #bbb;
             color: black;
             }
-
+            h3{
+                font-size:25px;
+            }
+            h5{
+                font-size:18px;
+            }
             /* .flip-box-back {
             background-image: url("image/mobile1.jpg");
             transform: rotateX(180deg);
@@ -106,7 +114,7 @@
     </style>
 </head>
 <body>
-<div class="header">
+<div class="header col-xs-12">
     <img src="../image/linnlogo.jpg" width="100px" height="90px">
     <b>Linn It Solution Co.,Ltd.</b>
     <ul>
@@ -114,16 +122,16 @@
 		  <li><a class="active" href="../course.php">Course</a></li>
           <li><a class="active" href="../news.php">News</a></li>
           <li><a class="active" href="../contact.php">Contact</a></li>
-          <li><a class="active" href="../about.php">About</a></li>
-		  <li style="float:right"><a class="active" href="../login.php">Login</a></li>
+          <!-- <li><a class="active" href="../about.php">About</a></li> -->
+		  <!-- <li style="float:right"><a class="active" href="../login.php">Login</a></li> -->
 		  
 	</ul>
 </div><br>
-<div class="container">
+<div class="container ">
  <h3 style="color:#751B08"><center>Mobile Service</center></h3><br>
- <h5 style="color:#751B08; margin-left:40px;" >Software Service</h5><br>
- <div class="row" style="margin-left:80px;">
-        <div class="col-lg-6"><br>
+ <h5 style="color:#751B08;">Software Service</h5><br>
+ <div class="row">
+        <div class="col-lg-6 col-xs-12">
             <ol style="color:#555">
                 <li> Mi Account Lock Bypass/Official</li><br>
                 <li>FRP Lock</li><br>
@@ -136,46 +144,45 @@
             <ol>
         </div>
        
-        <div class="flip-box col-lg-6">
+        <div class="flip-box col-lg-6 col-xs-12">
         <!-- <div class="flip-box-inner">
             <div class="flip-box-front "> -->
-            <img src="../image/mobile1.jpg"  width="400px" height="300px">
-            </div>
+            <img src="../image/mobile1.jpg"  width="330px" height="200px">
+        </div>
             <!-- <div class="flip-box-back">
             <img src="../image/mobile2.jpg"  width="400px" height="300px">
             </div> -->
         <!-- </div>
         </div> -->
- </div>  <br><br>      
-
-
-<h5 style="color:#751B08; margin-left:40px;">Hardware Service</h5><br>
-    <div class="row" style="margin-left:80px;">
+ </div>  <br><br> <br><br>     
+ 
+<h5 style="color:#751B08;">Hardware Service</h5><br>
+    <div class="row">
     
-        <div class="flip-box col-lg-3">
+        <div class="flip-box col-lg-6 col-sm-12">
         <!-- <div class="flip-box-inner">
             <div class="flip-box-front"> -->
-            <img src="../image/mobile4.jpg"  width="400px" height="300px">
-            </div>
+            <img src="../image/mobile4.jpg"  width="330px" height="200px">
+        </div><br><br><br><br><br><br><br><br>
             <!-- <div class="flip-box-back">
             <img src="../image/mobile4.jpg" width="400px" height="300px">
             </div> -->
         <!-- </div>
         </div> -->
-        <div class="col-lg-3">
-        </div>
-        <div class="col-lg-6">
-        <ol style="color:#555"><br><br>
+        <!-- <div class="col-lg-3 col-xs-12">
+        </div> -->
+        <div class="col-lg-6 col-sm-12">
+        <ol style="color:#555">
                <li> Touch And LCD Change</li><br>
                <li>Water Damage Service</li><br>
                <li>No Power Service</li><br>
                <li>Board Service</li><br>
                <li>IC Change</li><br>
-               <li>Part Change</li><br>
+               <li>Part Change</li><br><br>
                
         <ol>
-     </div>
-</div><br><br><br><br>
+        </div>
+    </div>
 </div>
 <?php include("../footer/footer.html");?>
 </body>

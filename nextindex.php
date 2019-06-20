@@ -1,63 +1,98 @@
 <!DOCTYPE html>
 <html>
-<head>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>    
-
-           .mySlides {display:none;}
-
-            ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color:#AAAAFF;
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha584-ggOyR0iXCbMQv5Xipma54MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Printer</title>
+<style>
+           
+            table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
             }
 
-            li {
-            float: left;
-            border-right:0px solid #bbb;
+            td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            color:#770055;
             }
-
-            li:last-child {
-            border-right: none;
+            th{
+                color:#770077;
             }
-
-            li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
+            td{
+              font-size:15px;
             }
-
-            li a:hover {
-            background-color:#CCCCFF;
-            
+            tr:nth-child(even) {
+            background-color: #dddddd;
             }
-            #mySidenav a {
-                position: absolute;
-                left: -50px;
-                transition: 0.3s;
-                padding: 20px;
-                width: 100px;
-                text-decoration: none;
-                font-size: 20px;
-                color: white;
-                border-radius: 0 5px 5px 0;
+            .title{
+                color:#440077;
+                /* position:absolute; */
             }
-
+            h3{
+              font-size:25px;
+            }
+            h5{
+              font-size:18px;
+            }
+            footer{
+              padding: 20px;
+              text-align: center;
+              font-size: 14px;
+              color: black;
+              background: #AAAAFF;
+              width:100%;
+              height:60px;
+              position: fixed;
+            }
+    
 </style>
 </head>
 <body>
-  <?php include("header/header.html");?>
-<!-- <h2 class="w3-center">Linn IT Solution Co.,Ltd.</h2> -->
-  <?php include("home/printer.php");?>
-  <?php include("footer/footer.html");?>
+  <div class="container">
+<br><br>
+<h3 class="title"><center>Printer Service</center></h3><br><br>
+<table>
+  <tr>
+    <th><center><h5>Category</h5></center></th>
+    <th><center><h5>Photo</h5></center></th>
+    <th><center><h5>Service</h5></center></th>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Laser Printer</td>
+    <td><img src="image/printer1.jpg" width="500px" height="200px"></td>
+    <td>Laser Printer Service</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Ink-Jet Printer</td>
+    <td><img src="image/printer2.jpg" width="400px" height="200px"></td>
+    <td>Ink-Jet Printer Service</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>Dot Matrix Printer</td>
+    <td><img src="image/printer3.jpg" width="300px" height="200px"></td>
+    <td>Dot Matrix Printer Service</td>
+  </tr>
+  <tr></tr>
+  <tr>
+    <td>All in one Printer</td>
+    <td><img src="image/printer4.jpg" width="400px" height="200px"></td>
+    <td>All in one Printer Service</td>
+  </tr>
+</table><br>
+</div>
+<div class="footer">
+    <footer>
+        <p>&copy;2019 Copyright: linnitsolution.com</p>
+    </footer>
+   
+</div>
 </body>
 </html>
