@@ -7,6 +7,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>    
 
            .mySlides {display:none;}
@@ -17,6 +18,7 @@
             padding: 0;
             overflow: hidden;
             background-color:#AAAAFF;
+            
             }
 
             li {
