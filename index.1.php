@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="view port" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>    
 
            .mySlides {display:none;}
@@ -18,7 +17,6 @@
             padding: 0;
             overflow: hidden;
             background-color:#AAAAFF;
-            
             }
 
             li {
@@ -59,7 +57,7 @@
 <body>
   <?php include("header/header.html");?>
 <!-- <h2 class="w3-center">Linn IT Solution Co.,Ltd.</h2> -->
-  <?php include("home/home.php");?>
+  <?php include("news/news.html");?>
   <?php include("footer/footer.html");?>
 </body>
 </html>
