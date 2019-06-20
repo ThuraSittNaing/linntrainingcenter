@@ -1,69 +1,93 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-    body{
-        background-color:bisque;
-    }
-    .header{
-        align:center;
-        color:blue;
-    }
-    .btnclass{
-        color:orangered;
-        background-color:darkturquoise;
 
-    }
-    label{
-        float:left;
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="../css/response.css">
+<style>    
+
+           .mySlides {display:none;}
+
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:#AAAAFF;
+            }
+
+            li {
+            float: left;
+            border-right:0px solid #bbb;
+            }
+
+            li:last-child {
+            border-right: none;
+            }
+
+            li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            li a:hover {
+            background-color:#CCCCFF;
+            
+            }
+            #mySidenav a {
+                position: absolute;
+                left: -50px;
+                transition: 0.3s;
+                padding: 20px;
+                width: 100px;
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                border-radius: 0 5px 5px 0;
+            }
+body{
+        overflow:scroll;
+        height:700px;
     }
 
-    form{
-        
-        margin-top:50px;
-        margin-left:300px;
-    }
-    div{
-        margin-left:300px;
-        padding-top:10px;
-        line-height:20pt;
-        font-family:serif;
-    }
-    
-    table, th, td {
-    border: 1px solid green;
-    width:50%;
-  
- 
+form{
+    margin-top:50px;
 }
+.header{
+    color:green;
 
-    </style>
+}
+table{
+    width:80%;
+
+}
+</style>
 </head>
 <body>
+<?php include("../header/courseheader.html");?>
+<form>
+<center><table>
+<tr>
 
-
-<a href="../course.php"><input type="button" name="homebtn"  class="btnclass" value="Back"></a><br><br>
-
-<form id="formcomputer" name="computername">
-<div><h3 class="header">Kid Course</h3>
+<td><div><h4 class="header">Kid Course</h4><img src="../image/kid.jpg"></div></td>
+<td><div>
 Microsoft Office Word<br>
 Microsoft Office Excel<br>
 Microsoft Office PowerPoint<br>
-<table>
-<tr>
-<td>Fee</td>
-<td>:35000Ks</td>
+အေျခခံရုံးသံုး software အမ်ိုးမ်ိုးသံုးနိုင္ေအာင္သင္ေပးသည္။<br>
+</td>
+<td>Fee:35000Ks</td>
 </tr>
-</table>
-</div>
-<div>
-အေျခခံရုံးသံုး software အမ်ိုးမ်ိုးသံုးနိုင္ေအာင္သင္ေပးသည္။
-</div>
+</table></center>
 </form>
+<hr>
+<?php include("../footer/footer.html");?>
 </body>
 </html>

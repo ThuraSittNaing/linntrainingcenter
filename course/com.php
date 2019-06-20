@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" type="text/css" href="../css/response.css">
 <style>    
 
            .mySlides {display:none;}
@@ -52,73 +52,45 @@
                 color: white;
                 border-radius: 0 5px 5px 0;
             }
+            
+            .btnclass{
+              margin-left:30px;
+              margin-top:10px;
+              margin-bottom:20px;
+              
 
-body{
-       overflow:scroll;
-        height:900px;
-    }
-
+            }
+    
+    table, th, td {
+    border: 1px solid green;
+    width:50%;
+  
+ 
+}
 form{
-    margin-top:50px;
-}
-.header{
-    color:green;
-
-}
-form  td{
-  margin-left:40px;
-  text-align:center;
-}
-div{
-  margin-right:30px;
-}
-table{
-  width:100%;
-}
-.table1{
-    border-bottom: 1px solid #000;
+    margin-left:500px;
 }
 
 </style>
 </head>
 <body>
-<?php include("../header/courseheader.html");?>
-<form>
-<table class="table1"><tr>
-<td><div><h4 class="header"> English Language Course</h4>
-<img src="../image/eng.jpg"></div> 
-<br><br>
-</td>
-<td>
-<div>
-Basic English <br>
-အဂၤလိပ္စာ အေျခခံမွစျပီးသင္ၾကားေပးမည္။
-<br>
-4 Skill သင္ၾကားေပးသည္။အေရး၊အဖတ္၊အေျပာမ်ားကို
-<br>ရိုးရွင္းလြယ္ကူေသာနည္းျဖင့္ေလ့က်င့္ေပးည္။
-<br>
-</td>
-<td>Fee:50000Ks<br>
-Dduration:3Months</td>
+  <?php include("../header/courseheader.html");?>
+<form id="formcomputer" name="computername">
+<div><h3 class="header">Kid Course</h3>
+Microsoft Office Word<br>
+Microsoft Office Excel<br>
+Microsoft Office PowerPoint<br>
+<table>
+<tr>
+<td>Fee</td>
+<td>:35000Ks</td>
 </tr>
 </table>
-</form>
-<form>
-<table><tr>
-<td><h4 class="header">Chinese Course</h4><img src="../image/chinese.jpg"></td>
-<td>
+</div>
 <div>
-နိုင္ငံတကာသံုးတရုတ္စာကို လုပ္ငန္းခြင္တြင္<br>
-အသံုးခ်နုိင္သည့္အထိသင္ၾကားေပးသည္။<br>
-အေရး၊အဖတ္၊အေျပာမ်ားကို
-<br>ရိုးရွင္းလြယ္ကူေသာနည္းျဖင့္ေလ့က်င့္ေပးည္။<br> 
-level1,level2,level3 ေလ့လာနိုင္သည္။
-</td>
-<td>Fee:60000Ks</td>
-</tr>
-</table>
+အေျခခံရုံးသံုး software အမ်ိုးမ်ိုးသံုးနိုင္ေအာင္သင္ေပးသည္။
+</div>
 </form>
-<hr>
 <?php include("../footer/footer.html");?>
 </body>
 </html>

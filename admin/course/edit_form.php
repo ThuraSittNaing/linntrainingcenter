@@ -28,8 +28,9 @@ while($res = mysqli_fetch_array($result))
 </head>
 <body>
     <div class="container">
-            <form class="form-horizontal" role="form" action="course/update.php" method="post">
-                <div class="form-group">
+            <form class="form-horizontal" role="form" action="course/update.php" method="post"enctype="multipart/form-data" >
+            <input type="hidden" id="id" name="id">
+            <div class="form-group">
                     <label for="firstName" class="col-sm-3 control-label">Name</label>
                     <div class="col-sm-9">
                         <input type="text" name="name"  value="<?php echo $name;?>" >

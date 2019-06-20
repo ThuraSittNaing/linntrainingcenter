@@ -1,119 +1,133 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-    body{
-        background-color:bisque;
-    }
-    .header{
-        align:center;
-        color:blue;
-    }
-    .btnclass{
-        color:orangered;
-        background-color:darkturquoise;
 
-    }
-    label{
-        float:left;
-    }
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="../css/response.css">
+<style>    
 
-    form{
-        display:none;
-        margin-top:50px;
-        margin-left:300px;
+           .mySlides {display:none;}
+
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:#AAAAFF;
+            }
+
+            li {
+            float: left;
+            border-right:0px solid #bbb;
+            }
+
+            li:last-child {
+            border-right: none;
+            }
+
+            li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            li a:hover {
+            background-color:#CCCCFF;
+            
+            }
+            #mySidenav a {
+                position: absolute;
+                left: -50px;
+                transition: 0.3s;
+                padding: 20px;
+                width: 100px;
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                border-radius: 0 5px 5px 0;
+            }
+            body{
+        overflow:scroll;
+        height:1150px;
     }
-    div{
-        margin-left:300px;
-        padding-top:10px;
-        line-height:20pt;
-        font-family:serif;
-    }
-    
-    table, th, td {
-    border: 1px solid green;
-    width:50%;
-  
- 
+form{
+    margin-top:10px;
 }
-.text{
-    size:20px;
-}
+.header{
+    color:green;
 
-    </style>
+}
+table{
+  width:100%;
+}
+.table1{
+    border-bottom: 1px solid #000;
+}
+</style>
 </head>
 <body>
-
-<div>
-<a href="../course.php"><input type="button" name="homebtn"class="btnclass" value="Back"></a>
-<br>
-<br>
-<input type="button" value="IOs Cuurse" name="btnios" class="btnclass" onclick="design();">
-<br>
-<br>
-<input type="button" value="Android Course" name="btnandroid" class="btnclass" onclick="comp();">
-
-</div>
-<form id="formandroid"> 
-<div class=text><h3 class="header">Android Course</h3>
-Smartphone Repairs<br>
-Basic Electronics Declassified:<br>
-Tools and Test Equipments<br>
-Schematic Diagrams<br>
-Soldering, Soldering,Soldering<br>
-Application OfSolderindg In Cell Phone Repair<br>
-Integrated Circuits<br>
-<table>
+  <?php include("../header/courseheader.html");?>
+<body>
+<form>
+<table class="table1">
 <tr>
-<td>Fee</td>
-<td>:35000Ks</td>
+<td><div ><h4 class="header">Android Course</h4><img src="../image/mobile.jpg"></div></td><br><br>
+<td><div>
+Android အေျကာင္းကိုအေျခခံမွစျပီး သင္ျကားေပးျခင္း<br>
+Samsung,HTC,LG,Xiaomi,Hawei,Sony,Coolpadအစရွိေသာဖုန္းမ်ား<br>
+Insecure Boot image/bootloader unlock လုပ္နည္း<br>
+ဖုန္းအမ်ိုးအစားမ်ားစႊာကို software ေရးသားျခင္း<br>
+ျမန္မာစနစ္ကိုမွန္မွန္ထည့္သြင္းျခင္း<br>
+Root access ရရွိေအာင္ျပုလုပ္နည္း<br>
+ဖုန္းတစ္လုံးကို လွ်င္ျမန္စြာ Backup ျပုလုပ္ျခင္း<br>
+Android Network Lock/Unlock အေျကာင္းမ်ား<br>
+Android Os တြင္ျဖစ္ေလ့ရွိေသာSoftbrick မ်ားကိုျဖစ္ရသည့္အေျကာင္းရင္းမ်ား<br>
+ေျဖရွင္းျခင္းနည္းလမ္းမ်ားကို သင္ျကားေပးမည္ျဖစ္သည္။<br>
+<br>
+</div>
+</td>
+<td>Fee:150,000Ks<br>Duration:2 Months</td>
+<br><br>
 </tr>
 </table>
-</div>
-<div>
-Android မိုဘိုင္းနွင့္ပတ္သတ္ေသာစက္ပစၥည္းဆိုင္ရာ ခ်ို့ယြင္းခ်က္မ်ားျပင္ဆင္ျခင္း၊<br>
-Electronic အေျခခံမွစျပီး ဖုန္းတစ္လံုးအတြင္းမွာပါ၀င္တ့ဲ component <br>
-converter filter တစ္ခုခ်င္းစီ၏အလုပ္လုပ္ပံု ျပင္ဆင္ပံုအပာအ၀င္<br>
-Android mobile အသစ္တစ္စံုလန္းတပ္ဆင္နိုင္သည္အထိသင္ျကားေပးမည္ျဖစ္သည္<br>
-</div>
 </form>
-<form id="formios">
-<div><h3 class="header">IOs Course</h3>
-Create Apple Id<br>
-iTune ,iTool,Moborobo using<br>
-Fireware Restoring ,update and Downloadupgrade<br>
+<form>
 <table>
 <tr>
-<td>Fee</td>
-<td>:150000Ks</td>
+<td><div><h4 class="header">IOs Course</h4><img src="../image/ios.jpg"></div></td>
+<td><div>
+Apple သမိုင္းေျကာင္း
+iphone,ipod,ipad အဆင့္ဆင့္ေျပာင္းလဲပံု
+<br>ios အလုပ္လုပ္ပံုကိုေသခ်ာနားလည္ေစရန္ရွင္းလင္းျခင္း<br>
+ideviceမ်ား၏userdata မ်ားကို backup ယူျခင္း
+<br>frimware restore လုပ္နည္း<br>
+apple Id ျပုလုပ္နည္း၊Apple Store,ITune Store အသံုးျပုနည္း
+<br>firmware upgrade &restore<br>
+ ျပုလုပ္ရာတြင္ေတြ့ျကံုေလ့ရွိေသာ
+iTunes error မ်ားကိုအေသးစိတ္နားလည္သည္အထိ
+<br>သင္ျကားေပးျခင္း
+<br>PC Suiteမ်ားအသံုးျပုျခင္း၊
+<br>Official and cracked ios App&Game သြင္းနည္း
+<br>iOs သံုး iPhone,iPad,iPod touch မ်ားအား
+<br>jailbreak လုပ္နည္းမ်ားကိုရွင္းလင္းျပသေပးျခင္းနွင့္<br>ျမန္မာစာေဖာင့္နွင့္ျမန္မာကီးဘုတ္သြင္းနည္း
+<br>jaolbreak ျပုလုပ္၇ျခင္းသေဘာတရားမ်ား၊
+<br>jailbreak ျပုလုပ္ရန္လိုအပ္ခ်က္မ်ား။
+<br>Cydia အသံုးျပုပံုCydia Errord ရွင္းနည္း ၊
+<br>iOs errorရွင္းနည္းတို့ကိုသင္ျကားေပးသည္။
+<br></div></td>
+<td><div style="text-align:center;">Fees:150000Ks<br>
+Duration:2Months</div></td>
 </tr>
 </table>
-</div>
-<div>
- Apple မိုဘိုင္းနွင့္ပတ္သတ္ေသာစက္ပစၥည္းဆိုင္ရာ ခ်ို့ယြင္းခ်က္မ်ားျပင္ဆင္ျခင္း၊<br>
-Electronic အေျခခံမွစျပီး ဖုန္းတစ္လံုးအတြင္းမွာပါ၀င္တ့ဲ component <br>
-converter filter တစ္ခုခ်င္းစီ၏အလုပ္လုပ္ပံု ျပင္ဆင္ပံုအပာအ၀င္<br>
-Apple mobile အသစ္တစ္စံုလန္းတပ္ဆင္နိုင္သည္အထိသင္ျကားေပးမည္ျဖစ္သည္<br>
-</div>
 </form>
-<script>
-function comp()
-{
-    var d=document.getElementById("formandroid").style.display="inline";
-    var d=document.getElementById("formios").style.display="none";
-    
-}
-function design()
-{
-    var d=document.getElementById("formios").style.display="inline";
-    var d=document.getElementById("formandroid").style.display="none";
-}
-
-</script>
+<br>
+<?php include("../footer/footer.html");?>
+  
 </body>
 </html>
