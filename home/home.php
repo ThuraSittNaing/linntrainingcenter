@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>    
 
            .mySlides {display:none;}
@@ -21,7 +22,7 @@
             background-color:#AAAAFF;
             }
 
-             {
+            li{
             float: left;
             border-right:0px solid #bbb;
             }
@@ -53,14 +54,12 @@
                 color: white;
                 border-radius: 0 5px 5px 0;
             }
-            @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+            @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
 
             @import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
             .box > .icon { 
-                text-align: 
-                center; 
-                position: 
-                relative; 
+                text-align:center; 
+                position:relative; 
                 }
             .box > .icon > .image { 
                 position: relative; 
@@ -89,7 +88,7 @@
                 }
             .box > .icon > .info > h3.title { 
                 font-family: sans-serif !important; 
-                font-size: 16px; 
+                font-size: 25px; 
                 color: #222; 
                 font-weight: 500; 
                 }
@@ -132,41 +131,168 @@
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
             }
+                *{box-sizing: border-box;}
+                body {font-family: Verdana, sans-serif;}
+                /* .mySlides {display: none;} */
+                /* img {vertical-align: middle;} */
 
+                /* Slideshow container */
+                .slideshow-container { 
+                  position: relative;
+                  margin-left:75px;
+                  width:100%; 
+                  height:400px;
+                }
+                /* .mySlidesfade{
+                  width:1000px; 
+                  height:400px;
+                }
+                .mySlidesfade1{
+                  width:1000px; 
+                  height:400px;
+                } */
+                /* Caption text */
+                .text {
+                  color: #f2f2f2;
+                  font-size: 15px;
+                  padding: 8px 12px;
+                  position: absolute;
+                  bottom: 8px;
+                  width: 100%;
+                  text-align: center;
+                }
+
+                /* Number text (1/3 etc) */
+                .numbertext {
+                  color: #f2f2f2;
+                  font-size: 12px;
+                  padding: 8px 12px;
+                  position: absolute;
+                  top: 0;
+                }
+
+                /* The dots/bullets/indicators */
+                .dot {
+                  height: 15px;
+                  width: 15px;
+                  margin: 0 2px;
+                  background-color: #bbb;
+                  border-radius: 50%;
+                  display: inline-block;
+                  transition: background-color 0.6s ease;
+                }
+
+                /* .active {
+                  background-color: #717171;
+                } */
+
+                /* Fading animation */
+                .fade {
+                  -webkit-animation-name: fade;
+                  -webkit-animation-duration: 5s;
+                  animation-name: fade;
+                  animation-duration: 5s;
+                }
+
+                @-webkit-keyframes fade {
+                  from {opacity: 1} 
+                  to {opacity: 1}
+                }
+
+                @keyframes fade {
+                  from {opacity: 1} 
+                  to {opacity: 1}
+                }
+
+                /* On smaller screens, decrease text size */
+                @media only screen and (max-width: 300px) {
+                  .text {font-size: 11px}
+                }
+            
+               
             
 </style>
 </head>
 <body>
-  <br><br>
-  <div class="container">
-  <div class="w3-content w3-display-container">
-    <img class="mySlides" src="image/HO.jpg" style="width:100%">
-    <img class="mySlides" src="image/HO1.jpg" style="width:100%">
-    <img class="mySlides" src="image/HO.jpg" style="width:100%">
-    <img class="mySlides" src="image/HO1.jpg" style="width:100%">
+    <br><br>
+    
+    <div class="slideshow-container">
 
-    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      <div class="mySlides fade">
+        <img src="image/HO4.jpg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="image/HO5.jpg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="image/HO4.jpg">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="image/HO5.jpg">
+      </div>
+    </div>
+    <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>
   </div>
 
-  <script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
+  <div class="container">
+    <!-- <div class="w3-content w3-display-container">
+      <img class="mySlides" src="image/HO.jpg" style="width:100%">
+      <img class="mySlides" src="image/HO1.jpg" style="width:100%">
+      <img class="mySlides" src="image/HO.jpg" style="width:100%">
+      <img class="mySlides" src="image/HO1.jpg" style="width:100%">
 
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div> -->
 
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      if (n > x.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = x.length}
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
+    <!-- <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
       }
-      x[slideIndex-1].style.display = "block";  
-    }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+    </script> -->
+    <script>
+          var slideIndex = 0;
+          showSlides();
+
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
   </script>
 
   <br><br>
@@ -179,17 +305,22 @@
                 <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
                 <div class="info"><br>
               
-                  <h2 class="title">Mobile Service</h2>
+                  <h3 class="title">Mobile Service</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                  <h5><ol type="1"><br><br>
+                        <li>Software Service</li><br><br>
+                        <li>Hardware Service</li><br><br><br><br>
+                      </ol></h5>
                   </p>
-                  <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
+                  <a  href="home/mobile.php" style="color:#000000;"><h6> More Info</h6></a>
 
                 </div>
                 </div>
                 </div>
                 <div class="space"></div>
-                </div> 	    
+                </div> 	 
+
+
           <div class="col-md-3 col-xs-4">
           
                 <div class="box">							
@@ -197,11 +328,18 @@
                 <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
                 <div class="info"><br>
             
-                <h2 class="title">Printer Service</h2>
+                <h3 class="title">Printer Service</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                <p>
+                <h5><ol type="1"><br><br>
+                 <li>Laser Printer Service</li><br><br>
+                 <li>Ink-Jet Printer Service</li><br><br>
+                 <li>Dot-Matrix Printer Service </li><br><br>
+                 <li>All in one printer Service</li>
+               </ol></h5>
                 </p>
-                <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
+                </p>
+                <a  href="nextindex.php" style="color:#000000;"><h6> More Info</h6></a>
     
           <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 </div>
@@ -209,7 +347,9 @@
                 </div>
                 </div>
                 <div class="space"></div>
-                </div> 	    
+                </div> 	 
+
+
           <div class="col-md-3 col-xs-4">
           
             <div class="box">							
@@ -217,11 +357,14 @@
               <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
               <div class="info"><br>
             
-                <h2 class="title">System Service</h2>
+                <h3 class="title">System Service</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+                <h5><ol type="1"><br><br>
+                 <li>Software Service</li><br><br>
+                 <li>Hardware Service</li><br><br><br><br>
+               </ol></h5>
                 </p>
-                <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
+                <a  href="home/system.php" style="color:#000000;"><h6> More Info</h6></a>
       
           <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           
@@ -231,18 +374,24 @@
           </div>
           <div class="space"></div>
           </div> 
+
+
           <div class="col-md-3 col-xs-4">
-          
           <div class="box">    						
           <div class="icon">
           <div class="image"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></div>
           <div class="info"><br>
             
-              <h2 class="title">Internet Service</h2>
+              <h3 class="title">Internet Service</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+               <h5><ol type="1"><br><br>
+                 <li>Wireless Service</li><br><br>
+                 <li>FTTX Service</li><br><br>
+                 <li>Prepaid Card</li><br><br>
+               </ol></h5>
               </p>
-              <a  href="http://linnonlinestore.com/" style="color:#000000;"><h6> More About</h6></a>
+              <a  target="_blank" href="http://mm-link.net/our-services/" style="color:#000000;"><h6> More Info</h6></a>
+              <!-- <link rel="parent" href="http://mm-link.net/our-services/" target="_blank" > -->
      
           <div class="modal fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           </div>

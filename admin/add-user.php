@@ -14,12 +14,12 @@
           <li class="breadcrumb-item">
             <a href="#">Dashboard</a>
           </li>
-          <li class="breadcrumb-item">Student</li>
-          <li class="breadcrumb-item active">Add New Student</li>
+          <li class="breadcrumb-item">User</li>
+          <li class="breadcrumb-item active">Add New User</li>
         </ol>
 
         <!-- Students Form  -->
-       <?php include('student/form.php') ?>
+       <?php include('user/form.php') ?>
       </div>
       <!-- /.container-fluid -->
 
