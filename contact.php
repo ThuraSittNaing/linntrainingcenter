@@ -8,49 +8,49 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>    
+    
+    .mySlides {display:none;}
 
-           .mySlides {display:none;}
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#AAAAFF;
+    }
 
-            ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color:#AAAAFF;
-            }
+    li {
+    float: left;
+    border-right:0px solid #bbb;
+    }
 
-            li {
-            float: left;
-            border-right:0px solid #bbb;
-            }
+    li:last-child {
+    border-right: none;
+    }
 
-            li:last-child {
-            border-right: none;
-            }
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
 
-            li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            }
+    li a:hover {
+    background-color:#CCCCFF;
 
-            li a:hover {
-            background-color:#CCCCFF;
-            
-            }
-            #mySidenav a {
-                position: absolute;
-                left: -50px;
-                transition: 0.3s;
-                padding: 20px;
-                width: 100px;
-                text-decoration: none;
-                font-size: 20px;
-                color: white;
-                border-radius: 0 5px 5px 0;
-            }
+    }
+    #mySidenav a {
+        position: absolute;
+        left: -50px;
+        transition: 0.3s;
+        padding: 20px;
+        width: 100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+    }
 
 </style>
 </head>
