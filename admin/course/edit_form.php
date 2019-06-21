@@ -1,13 +1,13 @@
-
 <?php
 include "../dbconnect/connection.php";
 $id = $_GET['id'];
-$result = mysqli_query($conn, "SELECT * FROM course WHERE course_id=$id");
+$result = mysqli_query($conn, "SELECT * FROM course WHERE course_id='$id'");
 
 // $brands = mysqli_fetch_array($b);
 
 while($res = mysqli_fetch_array($result))
- {  //$brandname = $res['brand_id'];
+ {
+  $id= $res['course_id'];
   $name =  $res['course_name'];
   $desc = $res['course_desc'];
   $photo = $res['course_photo'];
@@ -22,14 +22,13 @@ while($res = mysqli_fetch_array($result))
 <head>
     <meta charset="utf-8">
     <meta name="robots" content="noindex, nofollow">
-
-    <title>Bootstrap 3 registration form example - Bootsnipp.com</title>
+   <title>Bootstrap 3 registration form example - Bootsnipp.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <div class="container">
-            <form class="form-horizontal" role="form" action="course/update.php" method="post"enctype="multipart/form-data" >
-            <input type="hidden" id="id" name="id">
+            <form class="form-horizontal" role="form" action="course/update.php" method="post" enctype="multipart/form-data" >
+            
             <div class="form-group">
                     <label for="firstName" class="col-sm-3 control-label">Name</label>
                     <div class="col-sm-9">
@@ -40,7 +39,7 @@ while($res = mysqli_fetch_array($result))
                <div class="form-group">
                     <label for="" class="col-sm-3 control-label">Descriprion</label>
                     <div class="col-sm-9">
-                        <input type="text" name="des"  value="<?php echo $desc;?>">
+                        <input type="text" name="desc"  value="<?php echo $desc;?>">
                     </div>
                 </div>
                 <div class="form-group">
@@ -49,7 +48,7 @@ while($res = mysqli_fetch_array($result))
                         <input type="file" name="photo" value="<?php echo $photo;?>">
                     </div>
                 </div>
-                  <!-- /.form-group -->
+                  
                   <div class="form-group">
                     <label for="" class="col-sm-3 control-label">Duration</label>
                     <div class="col-sm-9">
@@ -74,6 +73,6 @@ while($res = mysqli_fetch_array($result))
                     <button type="submit" name="addbtn" class="btn btn-primary btn-block">Add</button>
                     </div>
                 </div>
-            </form> <!-- /form -->
+            </form>
 </body>
 </html>
