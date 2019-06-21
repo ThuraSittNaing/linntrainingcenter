@@ -123,6 +123,7 @@
     </style>
 </head>
 <body>
+<<<<<<< Updated upstream
 <div class="header col-xs-12">
     <img src="../image/linnlogo.jpg" width="100px" height="90px">
     <b>Linn It Solution Co.,Ltd.</b>
@@ -136,6 +137,10 @@
 		  
 	</ul>
 </div>
+=======
+
+</div><br>
+>>>>>>> Stashed changes
 <div class="container ">
  <h3 style="color:#751B08; margin-bottom:30px;"><center>Mobile Service</center></h3>
  <h5 style="color:#751B08;">Software Service</h5>
