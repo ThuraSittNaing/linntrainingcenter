@@ -7,7 +7,7 @@ include "../dbconnect/connection.php";
 $result = mysqli_query($conn,"SELECT * FROM post ORDER BY id");
 ?>
 <div class="container">
-            <form class="form-horizontal" role="form" action="post/insert.php" method="post">
+            <form class="form-horizontal" role="form" action="post/insert.php" method="post" enctype="multipart/form-data">
                 <h2>Posting Form</h2>
                 <div class="form-group">
                     <!-- <label for="description" class="col-sm-3 control-label"></label> -->
@@ -31,14 +31,11 @@ $result = mysqli_query($conn,"SELECT * FROM post ORDER BY id");
                 <div class="form-group">
                     <label for="photo" class="col-sm-3 control-label">Photo</label>
                    <div class="col-sm-9">
-                        ​<picture>
-                         <source srcset="..." type="image/svg+xml">
-                         <img src="..." class="img-fluid img-thumbnail" alt="...">
-                        </picture>
+                        ​​<input type="file" id="image" name="image">
                     </div>
                     <br>
                     <div class="col-sm-3">
-                        <input type="file" id="img" name="img" value="Choosefile">
+                        <!-- <input type="file" id="img" name="img" value="Choosefile"> -->
                     </div>          
                 </div>
                 
@@ -55,7 +52,7 @@ $result = mysqli_query($conn,"SELECT * FROM post ORDER BY id");
                 </div> <!-- /.form-group -->
                 <div class="form-group">
                     <div class="col-sm-3 col-sm-offset-3">
-                        <button type="submit" class="btn btn-primary btn-block">Save</button>
+                        <button type="submit" name="upload" class="btn btn-primary btn-block">Save</button>
                     </div>
                 </div>
             </form> <!-- /form -->
