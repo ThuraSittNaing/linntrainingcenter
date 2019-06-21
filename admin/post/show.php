@@ -1,22 +1,3 @@
-<?php
-//including the database connection file
-include "../dbconnect/connection.php";
-$id = $_GET['id'];
-//echo $Id;
-$result = mysqli_query($conn,"SELECT * FROM post WHERE id='$id'" );
-
-while($res = mysqli_fetch_array($result))
-{
-    $id = $res['id'];
-    $title = $res['title'];
-    $description = $res['description'];
-    $photo = $res['photo'];
-    $publishdate = $res['publish_date'];
-    // echo $photo;
-  
-
-}
-?>
 <!DOCTYPE html>
 
 <head>
@@ -30,7 +11,7 @@ while($res = mysqli_fetch_array($result))
     
      
      <div class="container">
-            <form class="form-horizontal" role="form" action="post/update.php" method="post"enctype="multipart/form-data">
+            <form class="form-horizontal" role="form" action="post/showdetail.php" method="post"enctype="multipart/form-data">
                 <h2>Posting Form</h2>
                 <div class="form-group">
                     <!-- <label for="description" class="col-sm-3 control-label">Id</label> -->
@@ -54,11 +35,14 @@ while($res = mysqli_fetch_array($result))
                 <div class="form-group">
                     <label for="photo" class="col-sm-3 control-label">Photo</label>
                     <div class="col-sm-9">
-                        ​​​<input type="file" id="image" name="image"><?php echo $photo;?>
+                        <!-- ​<picture>
+                         <source srcset="..." type="image/svg+xml">
+                         <img src="..." class="img-fluid img-thumbnail" alt="...">
+                        </picture> -->
                     </div>
                     <div class="col-sm-3">
                     <br>
-                        <!-- <input type="file" id="img" name="img"width="304" height="236" value="<?php echo $photo;?>"> -->
+                        <input type="file" id="img" name="img"width="304" height="236" value="<?php echo $photo;?>">
                     </div>          
                 </div>
                 
