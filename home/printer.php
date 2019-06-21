@@ -111,6 +111,19 @@
             background-image: url("image/mobile1.jpg");
             transform: rotateX(180deg);
             } */
+            /* .container{
+                margin-top:30px;
+                 margin-bottom:20px;
+            } */
+            
+            .container{
+                margin-top:15px;
+                 margin-bottom:40px;
+            }
+            .row{
+                margin-top:30px;
+                 margin-bottom:100px;
+            }
     </style>
 </head>
 <body>
@@ -126,10 +139,10 @@
 		  <!-- <li style="float:right"><a class="active" href="../login.php">Login</a></li> -->
 		  
 	</ul>
-</div><br>
+</div>
 <div class="container ">
- <h3 style="color:#751B08"><center>Printer Service</center></h3><br>
- <h5 style="color:#751B08;">Laser Printer Service</h5><br>
+ <h3 style="color:#751B08; margin-bottom:30px;"><center>Printer Service</center></h3>
+ <h5 style="color:#751B08;">Laser Printer Service</h5>
  <div class="row">
         <div class="col-lg-6 col-xs-12">
             <ol style="color:#555">
@@ -154,9 +167,9 @@
             </div> -->
         <!-- </div>
         </div> -->
- </div>  <br><br> <br><br>     
+ </div>   
  
-<h5 style="color:#751B08;">Ink-Jet Printer Service</h5><br>
+<h5 style="color:#751B08;">Ink-Jet Printer Service</h5>
     <div class="row">
     
         <div class="flip-box col-lg-6 col-sm-12">
@@ -185,7 +198,7 @@
     </div>
 
 
-    <h5 style="color:#751B08;">Dot Matrix Printer Service</h5><br>
+    <h5 style="color:#751B08;">Dot Matrix Printer Service</h5>
  <div class="row">
         <div class="col-lg-6 col-xs-12">
             <ol style="color:#555">
@@ -210,7 +223,7 @@
             </div> -->
         <!-- </div>
         </div> -->
- </div>  <br><br> <br><br>     
+ </div>      
  
 <h5 style="color:#751B08;">All in one Printer Service</h5><br>
     <div class="row">

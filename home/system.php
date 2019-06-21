@@ -93,6 +93,14 @@
             h5{
                 font-size:18px;
             }
+            .container{
+                margin-top:30px;
+                 margin-bottom:40px;
+            }
+            .row{
+                margin-top:5px;
+                 margin-bottom:100px;
+            }
             /* .flip-box-front, .flip-box-back {
             position: fixed;
             width: 0px;
@@ -125,12 +133,11 @@
 	</ul>
 </div><br>
 <div class="container">
- <h3 style="color:#751B08"><center>System Service</center></h3><br>
+ <h3 style="color:#751B08; margin-bottom:30px;"><center>System Service</center></h3>
  <h5 style="color:#751B08; " >Software Service</h5>
  <div class="row">
         <div class="col-lg-6 col-sm-12"><h6>
             <ol style="color:#555">
-            <br><br>
                 <li>Microsoft Office installation</li><br>
                 <li>Microsoft Window installation</li><br>
                 <li>Network Unlock</li><br>
@@ -149,7 +156,7 @@
             </div> -->
         <!-- </div>
         </div> -->
- </div> <br><br><br><br>     
+ </div>     
  <h5 style="color:#751B08;">Hardware Service</h5><br>
     <div class="row">
     
@@ -157,7 +164,7 @@
         <!-- <div class="flip-box-inner">
             <div class="flip-box-front"> -->
             <img src="../image/mobile5.jpg"  width="330px" height="180px">
-            </div><br><br><br><br><br><br>
+            </div><br><br><br><br><br><br><br><br>
             <!-- <div class="flip-box-back">
             <img src="../image/mobile4.jpg" width="400px" height="300px">
             </div> -->
@@ -177,7 +184,7 @@
         <ol></h6>
      </div>
 </div>
-</div><br>
+</div>
 <?php include("../footer/footer.html");?>
 </body>
 </html>
