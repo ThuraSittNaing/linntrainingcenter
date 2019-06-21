@@ -54,15 +54,11 @@
   
       <h3>Kids cousre level-3 Coming Soon</h3>
       <h5><small>RECENT POSTS</small></h5>  
-      <hr>
-      <h2>
-
-      </h2>
       <h5><span class="glyphicon glyphicon-time"></span> Post by Linn Training Center, Sep 27, 2015.</h5>
       <h5> <span class="label label-success">Linn IT Training Center</span></h5><br>
       <div class="entry-thumbnail">
-          <img src="img/linn.jpg"  width= "300px" height="150px" class="image.size-medium.wp-image.141.aligncenter" >
-      </div>
+          <img src="news/img/linn.jpg"  width= "300px" height="150px" class="image.size-medium.wp-image.141.aligncenter" >
+      </div><br>
   <div class="row">
     <p> At Linn Training Centre, we are focused on providing professional training services with the highest levels of customer satisfaction – we will do everything we can to meet your expectations.
           
@@ -98,8 +94,8 @@ $(document).ready(function () {
       <h5><span class="glyphicon glyphicon-time"></span> Post by Linn Training Center, Sep 27, 2015.</h5>
       <h5> <span class="label label-success">Linn IT Training Center</span></h5><br>
       <div class="entry-thumbnail">
-          <img src="img/linn.jpg"  width= "300px" height="150px" class="image.size-medium.wp-image.141.aligncenter" >
-      </div>
+          <img src="news/img/linn.jpg"  width= "300px" height="150px" class="image.size-medium.wp-image.141.aligncenter" >
+      </div><br>
       
       <p>
           “Computer & Online Essentials Course”
@@ -125,23 +121,25 @@ $(document).ready(function () {
 
 });
 </script>
-      <h4>Leave a Comment:</h4>
+      
       <form role="form">
         <div class="form-group">
-          <textarea class="form-control" rows="3" required></textarea>
+          
         </div>
-        <button type="submit" class="btn btn-success">Submit</button><br><br>
+        
   </div> 
   <div class="col-sm-3" >
             <h2>About Me</h2>
             <h2>
                 Computer & Online Essentials Course 
-               </h2>
-            <div class="fakeimg" style="height:100px;">Recent Post</div>
+            </h2><br>
+            <div class="fakeimg" style="height:30px;"><h4><small>RECENT POSTS</h4></small></div>
+            <h5><span class="glyphicon glyphicon-time"></span> Post by Linn Training Center, Sep 27, 2015.</h5>
+            <h5> <span class="label label-success">Linn IT Training Center</span></h5><br>
             <p>Computer ပညာရပ္မ်ားကို အနည္းငယ္ေလ့လာ သိရွိထားၿပီး ရံုးလုပ္ငန္းသံုး Computer နည္းစနစ္မ်ားကို ထပ္မံ ေလ့လာလိုသူမ်ား အတြက္ ၊ ရံုးလုပ္ငန္းသံုး စာစီစာရိုက္ျခင္း အေျခခံသေဘာတရားမ်ား၊ စာရင္းဇယားေရးဆြဲျခင္းမ်ား၊ Presentation ျပဳလုပ္ျခင္းမ်ား ႏွင့္ အျခား လိုအပ္သည္မ်ားကို သင္ၾကားေပးသည့္သင္တန္း<div class="card">
-            <h3>Popular Post</h3>
+            <h3>POPULAR POSTS</h3>
             <div class="entry-thumbnail">
-                <img src="img/linn.jpg"  width= "300px" height="150px" class="image.size-medium.wp-image.141.aligncenter" >
+                <img src="news/img/linn.jpg"  width= "300px" height="150px" class="image.size-medium.wp-image.141.aligncenter" >
             </div>
             <h2>
                 Computer & Online Essentials Course 
@@ -149,18 +147,16 @@ $(document).ready(function () {
             <div class="fakeimg"><h5><span class="glyphicon glyphicon-time"></span> Post by Linn Training Center, Sep 27, 2015.</h5></div><br>
             <!-- <div class="fakeimg">Image</div><br>
             <div class="fakeimg">Image</div> -->
+            <h5> <span class="label label-success">Linn IT Training Center</span></h5><br>
             <p>
-          “Computer & Online Essentials Course”
+            “Computer & Online Essentials Course”
 
-          Computer ပညာရပ္ကို စတင္ေလ့လာမည့္သူမ်ား
-          Computer ႏွင္ပါတ္သက္သည့္ အေၾကာင္းအရာမ်ားအားလံုးကို သိရွိနားလည္ထားလိုသူမ်ား
-          Computer & Devices မ်ားအေၾကာင္းHardware & Software မ်ားအေၾကာင္းComputer အသံုးျပဳပံုမ်ား(Windows 10) ႏွင့္ File ManagementCD/DVD Burning, CopyingMobile Phone မ်ားႏွင့္ခ်ိတ္ဆက္အသံုးျပဳျခင္း
-    </p>
-          </div>
-          <div class="card">
-            <h3>Follow Me</h3>
-            <p>Some text..</p>
-          </div>
+            Computer ပညာရပ္ကို စတင္ေလ့လာမည့္သူမ်ား
+            Computer ႏွင္ပါတ္သက္သည့္ အေၾကာင္းအရာမ်ားအားလံုးကို သိရွိနားလည္ထားလိုသူမ်ား
+            Computer & Devices မ်ားအေၾကာင္းHardware & Software မ်ားအေၾကာင္းComputer အသံုးျပဳပံုမ်ား(Windows 10) ႏွင့္ File ManagementCD/DVD Burning, CopyingMobile Phone မ်ားႏွင့္ခ်ိတ္ဆက္အသံုးျပဳျခင္း
+            </p>
+            </div>
+          
   </div>
 </div>
 </body>
