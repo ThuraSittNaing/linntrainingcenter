@@ -118,11 +118,11 @@
             
             .container{
                 margin-top:15px;
-                 margin-bottom:40px;
+                 margin-bottom:200px;
             }
             .row{
                 margin-top:30px;
-                 margin-bottom:100px;
+                 margin-bottom:120px;
             }
     </style>
 </head>
@@ -144,19 +144,6 @@
  <h3 style="color:#751B08; margin-bottom:30px;"><center>Printer Service</center></h3>
  <h5 style="color:#751B08;">Laser Printer Service</h5>
  <div class="row">
-        <div class="col-lg-6 col-xs-12">
-            <ol style="color:#555">
-                <li> Mi Account Lock Bypass/Official</li><br>
-                <li>FRP Lock</li><br>
-                <li>Network Unlock</li><br>
-                <li>Application Install</li><br>
-                <li>Myanmar Font Installation</li><br>
-                <li>Rooting</li><br>
-                <li>Firmware Upgrade/ Downgrade</li><br>
-                <li>Xiaomi China To Global Change</li><br>
-            <ol>
-        </div>
-       
         <div class="flip-box col-lg-6 col-xs-12">
         <!-- <div class="flip-box-inner">
             <div class="flip-box-front "> -->
@@ -176,7 +163,7 @@
         <!-- <div class="flip-box-inner">
             <div class="flip-box-front"> -->
             <img src="../image/printer2.jpg"  width="330px" height="200px">
-        </div><br><br><br><br><br><br><br><br>
+        </div>
             <!-- <div class="flip-box-back">
             <img src="../image/mobile4.jpg" width="400px" height="300px">
             </div> -->
@@ -184,35 +171,11 @@
         </div> -->
         <!-- <div class="col-lg-3 col-xs-12">
         </div> -->
-        <div class="col-lg-6 col-sm-12">
-        <ol style="color:#555">
-               <li> Touch And LCD Change</li><br>
-               <li>Water Damage Service</li><br>
-               <li>No Power Service</li><br>
-               <li>Board Service</li><br>
-               <li>IC Change</li><br>
-               <li>Part Change</li><br><br>
-               
-        <ol>
-        </div>
     </div>
 
 
     <h5 style="color:#751B08;">Dot Matrix Printer Service</h5>
- <div class="row">
-        <div class="col-lg-6 col-xs-12">
-            <ol style="color:#555">
-                <li> Mi Account Lock Bypass/Official</li><br>
-                <li>FRP Lock</li><br>
-                <li>Network Unlock</li><br>
-                <li>Application Install</li><br>
-                <li>Myanmar Font Installation</li><br>
-                <li>Rooting</li><br>
-                <li>Firmware Upgrade/ Downgrade</li><br>
-                <li>Xiaomi China To Global Change</li><br>
-            <ol>
-        </div>
-       
+       <div class="row">
         <div class="flip-box col-lg-6 col-xs-12">
         <!-- <div class="flip-box-inner">
             <div class="flip-box-front "> -->
@@ -223,16 +186,15 @@
             </div> -->
         <!-- </div>
         </div> -->
- </div>      
+        </div>
  
 <h5 style="color:#751B08;">All in one Printer Service</h5><br>
-    <div class="row">
-    
+   
         <div class="flip-box col-lg-6 col-sm-12">
         <!-- <div class="flip-box-inner">
             <div class="flip-box-front"> -->
             <img src="../image/printer4.jpg"  width="330px" height="200px">
-        </div><br><br><br><br><br><br><br><br>
+        </div>
             <!-- <div class="flip-box-back">
             <img src="../image/mobile4.jpg" width="400px" height="300px">
             </div> -->
@@ -240,17 +202,6 @@
         </div> -->
         <!-- <div class="col-lg-3 col-xs-12">
         </div> -->
-        <div class="col-lg-6 col-sm-12">
-        <ol style="color:#555">
-               <li> Touch And LCD Change</li><br>
-               <li>Water Damage Service</li><br>
-               <li>No Power Service</li><br>
-               <li>Board Service</li><br>
-               <li>IC Change</li><br>
-               <li>Part Change</li><br><br>
-               
-        <ol>
-        </div>
     </div>
 </div>
 <?php include("../footer/footer.html");?>
