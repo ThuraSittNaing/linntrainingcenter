@@ -100,12 +100,21 @@
             .flip-box-front {
             background-color: #bbb;
             color: black;
+            padding-bottom:200px;
             }
             h3{
                 font-size:25px;
             }
             h5{
                 font-size:18px;
+            }
+            .container{
+                margin-top:20px;
+                 margin-bottom:40px;
+            }
+            .row{
+                margin-top:35px;
+                 margin-bottom:110px;
             }
             /* .flip-box-back {
             background-image: url("image/mobile1.jpg");
@@ -126,10 +135,10 @@
 		  <!-- <li style="float:right"><a class="active" href="../login.php">Login</a></li> -->
 		  
 	</ul>
-</div><br>
+</div>
 <div class="container ">
- <h3 style="color:#751B08"><center>Mobile Service</center></h3><br>
- <h5 style="color:#751B08;">Software Service</h5><br>
+ <h3 style="color:#751B08; margin-bottom:30px;"><center>Mobile Service</center></h3>
+ <h5 style="color:#751B08;">Software Service</h5>
  <div class="row">
         <div class="col-lg-6 col-xs-12">
             <ol style="color:#555">
@@ -154,15 +163,15 @@
             </div> -->
         <!-- </div>
         </div> -->
- </div>  <br><br> <br><br>     
+ </div>      
  
-<h5 style="color:#751B08;">Hardware Service</h5><br>
+<h5 style="color:#751B08;">Hardware Service</h5>
     <div class="row">
     
         <div class="flip-box col-lg-6 col-sm-12">
         <!-- <div class="flip-box-inner">
             <div class="flip-box-front"> -->
-            <img src="../image/mobile4.jpg"  width="330px" height="200px">
+            <img src="../image/mobile4.jpg"  width="330px" height="200px" >
         </div><br><br><br><br><br><br><br><br>
             <!-- <div class="flip-box-back">
             <img src="../image/mobile4.jpg" width="400px" height="300px">

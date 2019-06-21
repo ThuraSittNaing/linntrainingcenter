@@ -214,13 +214,17 @@
                   width:100%;
                   /* height:380px; */
                 }
-               
+               div{
+                 margin-top:10px;
+                margin-bottom:5px;
+               }
+              
             
 </style>
 </head>
 <body>
   <div class="container">
-    <br><br>
+    
     <div class="slideshow-container">
 
       <div class="mySlides fade ">
@@ -238,7 +242,7 @@
       <div class="mySlides fade">
         <img src="image/HO5.jpg" id="img">
       </div>
-      </div><br>
+      </div>
   <div style="text-align:center">
     <span class="dot"></span> 
     <span class="dot"></span> 
@@ -401,7 +405,7 @@
           <div class="space"></div>
           </div> 
           </div></div>		    
-          <br><br><br>
+          
           <div class="container">
               <div class="row">
               <div class="col-lg-1"></div>
@@ -439,7 +443,7 @@
                       </center>
                 </div>                                                                                                                                                                                                                                                                                                                                               
               </div>
-          </div><br>
+          </div>
 </body>
 </html>
 

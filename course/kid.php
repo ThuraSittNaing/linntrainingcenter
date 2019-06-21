@@ -8,6 +8,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" type="text/css" href="../css/response.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>    
 
            .mySlides {display:none;}
@@ -23,6 +24,7 @@
             li {
             float: left;
             border-right:0px solid #bbb;
+            font-size:15px;
             }
 
             li:last-child {
@@ -72,10 +74,10 @@ table{
 </head>
 <body>
 <?php include("../header/courseheader.html");?>
+<div class="conteainer">
 <form>
 <center><table>
 <tr>
-
 <td><div><h4 class="header">Kid Course</h4><img src="../image/kid.jpg"></div></td>
 <td><div>
 Microsoft Office Word<br>
@@ -87,6 +89,7 @@ Microsoft Office PowerPoint<br>
 </tr>
 </table></center>
 </form>
+</div>
 <hr>
 <?php include("../footer/footer.html");?>
 </body>
