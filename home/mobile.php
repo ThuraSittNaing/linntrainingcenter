@@ -172,7 +172,7 @@
         <!-- <div class="flip-box-inner">
             <div class="flip-box-front"> -->
             <img src="../image/mobile4.jpg"  width="330px" height="200px" >
-        </div><br><br><br><br><br><br><br><br>
+        </div><br><br><br><br><br><br><br><br><br><br>
             <!-- <div class="flip-box-back">
             <img src="../image/mobile4.jpg" width="400px" height="300px">
             </div> -->
