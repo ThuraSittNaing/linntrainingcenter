@@ -26,7 +26,7 @@ include "../dbconnect/connection.php";
 		}
 		if(isset($_SESSION['valid']))
 		{
-			header('location:http://localhost/linntrainingcenter/index.php');
+			header('http://103.83.190.196/linntrainingcenter/admin/dashboard.php');
 		}
 	}
 ?>
