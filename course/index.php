@@ -174,10 +174,10 @@
             
                 <div class="box">							
                 <div class="icon">
-                <div class="image"><i class="fa fa-soundcloud"><img src=""></i></div>
+                <div class="image"><i class="fa fa-soundcloud"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></i></div>
                 <div class="info"><br>
               
-                  <h2 class="title">Window Traning</h2>
+                  <h3 class="title">Window Training</h3>
                   <p>
                     Office,Page Maker,.....
                   </p>
@@ -192,10 +192,10 @@
           
                 <div class="box">							
                 <div class="icon">
-                <div class="image"><i class="fa fa-soundcloud"><img src=""></i></div>
+                <div class="image"><i class="fa fa-soundcloud"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></i></div>
                 <div class="info"><br>
             
-                <h2 class="title">Mobile Traning</h2>
+                <h3 class="title">Mobile Training</h3>
                 <p>
                   Android,Apple....
                 </p>
@@ -212,10 +212,10 @@
           
             <div class="box">							
             <div class="icon">
-              <div class="image"><i class="fa fa-soundcloud"><img src=""></i></div>
+              <div class="image"><i class="fa fa-soundcloud"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></i></div>
               <div class="info"><br>
             
-                <h2 class="title">Language Traning</h2>
+                <h3 class="title">Language Training</h3>
                 <p>
                   English,Chinese...
                 </p>
@@ -233,10 +233,10 @@
           
           <div class="box">    						
           <div class="icon">
-          <div class="image"><i class="fa fa-soundcloud"><img src=""></i></div>
+          <div class="image"><i class="fa fa-soundcloud"><i class="fa fa-soundcloud"><img src="https://img.icons8.com/ios/50/000000/service-filled.png"></i></i></div>
           <div class="info"><br>
             
-              <h2 class="title">Kids Traning</h2>
+              <h3 class="title">Kids Training</h3>
               <p>
                Word,...
               </p>
