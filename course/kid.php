@@ -6,22 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<<<<<<< Updated upstream
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" type="text/css" href="../css/response.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>    
-
-           .mySlides {display:none;}
-=======
     <title>Mobile</title>
     <style>
             .mySlides {display:none;}
->>>>>>> Stashed changes
 
             ul {
             list-style-type: none;
@@ -34,12 +21,8 @@
             li {
             float: left;
             border-right:0px solid #bbb;
-<<<<<<< Updated upstream
-            font-size:15px;
-=======
             font-size: 15px;
             color:#751B08;
->>>>>>> Stashed changes
             }
 
             li:last-child {
@@ -134,38 +117,18 @@
     </style>
 </head>
 <body>
-<<<<<<< Updated upstream
-<?php include("../header/courseheader.html");?>
-<div class="conteainer">
-<form>
-<center><table>
-<tr>
-<td><div><h4 class="header">Kid Course</h4><img src="../image/kid.jpg"></div></td>
-<td><div>
-Microsoft Office Word<br>
-Microsoft Office Excel<br>
-Microsoft Office PowerPoint<br>
-အေျခခံရုံးသံုး software အမ်ိုးမ်ိုးသံုးနိုင္ေအာင္သင္ေပးသည္။<br>
-</td>
-<td>Fee:35000Ks</td>
-</tr>
-</table></center>
-</form>
-</div>
-<hr>
-=======
 <div class="header col-xs-12">
     <img src="../image/linnlogo.jpg" width="100px" height="90px">
     <b>Linn It Solution Co.,Ltd.</b>
     <ul>
-		  <li><a class="active" href="../index.php">Home</a></li>
-		  <li><a class="active" href="../course.php">Course</a></li>
+          <li><a class="active" href="../index.php">Home</a></li>
+          <li><a class="active" href="../course.php">Course</a></li>
           <li><a class="active" href="../news.php">News</a></li>
           <li><a class="active" href="../contact.php">Contact</a></li>
           <!-- <li><a class="active" href="../about.php">About</a></li> -->
-		  <!-- <li style="float:right"><a class="active" href="../login.php">Login</a></li> -->
-		  
-	</ul>
+          <!-- <li style="float:right"><a class="active" href="../login.php">Login</a></li> -->
+          
+    </ul>
 </div><br>
 <div class="container ">
 <h5 style="color:#751B08;">Kid Course</h5><br>
@@ -198,7 +161,6 @@ Microsoft Office PowerPoint<br>
 
     </div>
 </div>
->>>>>>> Stashed changes
 <?php include("../footer/footer.html");?>
 </body>
 </html>
