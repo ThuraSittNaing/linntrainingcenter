@@ -3,21 +3,30 @@ include "../dbconnect/connection.php";
 	if(isset($_POST['login'])){
 		$email = $_POST['email'];
 		$password = $_POST['password'];
+		$hash_password = md5($password);
 	}
 	if($email == "" && $password == "")
 	{
 		echo "<script>alert('Username or Password is empty!')</script>";
-		echo "<script>location.href='index.html'</script>";
+		echo "<script>location.href='login.php'</script>";
 	}
 	else{
-		
-		if($email=="admin@gmail.com" && $password=="1234"){
-			header('location:http:dashbord.php');
+		$result = mysqli_query($conn,"SELECT * FROM user WHERE email='$email' 
+			AND password='$hash_password'")or die("Could not excetue the select query");
+		$row = mysqli_fetch_assoc($result);
+		if(is_array($row) && !empty($row)){
+			$validuser = $row['username'];
+			$_SESSION['valid'] = $validuser;
+			$_SESSION['name'] = $row['username'];
+			$_SESSION['id'] = $row['id'];
 		}
 		else{
 			echo "<script>alert('E-mail or password is wrong ')</script>";
-			echo "<script>location.href='index.html'</script>";
+			echo "<script>location.href='../login.php'</script>";
 		}
-		
+		if(isset($_SESSION['valid']))
+		{
+			header('location:http://localhost/linntrainingcenter/index.php');
+		}
 	}
 ?>
