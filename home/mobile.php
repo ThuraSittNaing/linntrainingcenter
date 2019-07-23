@@ -127,14 +127,14 @@
     <img src="../image/linnlogo.jpg" width="100px" height="90px">
     <b>Linn It Solution Co.,Ltd.</b>
     <ul>
-		  <li><a class="active" href="../index.php">Home</a></li>
-		  <li><a class="active" href="../course.php">Course</a></li>
+          <li><a class="active" href="../index.php">Home</a></li>
+          <li><a class="active" href="../course.php">Course</a></li>
           <li><a class="active" href="../news.php">News</a></li>
           <li><a class="active" href="../contact.php">Contact</a></li>
           <!-- <li><a class="active" href="../about.php">About</a></li> -->
-		  <!-- <li style="float:right"><a class="active" href="../login.php">Login</a></li> -->
-		  
-	</ul>
+          <!-- <li style="float:right"><a class="active" href="../login.php">Login</a></li> -->
+          
+    </ul>
 </div>
 <div class="container ">
  <h3 style="color:#751B08; margin-bottom:30px;"><center>Mobile Service</center></h3>

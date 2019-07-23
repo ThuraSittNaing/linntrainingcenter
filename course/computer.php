@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" type="text/css" href="../css/response.css">
+
     <title>Document</title>
     <style>
         .mySlides {display:none;}
@@ -54,44 +54,50 @@ background-color:#CCCCFF;
     color: white;
     border-radius: 0 5px 5px 0;
 }
-    body{
-        overflow:scroll;
-        height:1150px;
+body{
+        overflow-y:scroll;       
     }
-
-form{
-    margin-top:50px;
-}
-.header{
-    color:green;
-
-}
-form  td{
-  margin-left:40px;
-}
-table{
-    width:100%;
-    
-
-}
-.table1{
-    border-bottom: 1px solid #000;
-}
-
+.flip-box-front {
+            background-color: #bbb;
+            color: black;
+            }
+.flip-box:hover .flip-box-inner {
+            transform: rotateX(180deg);
+            }
+            img{
+                margin-top:5px;
+            }
+    .header{
+             background:#FFFFFF;
+    }
+    b{
+        color:#999900;
+    }
+    .w3-content{
+    	max-width: 100% !important;
+    }
+    div{
+        margin-top:10px;
+    }
 </style>
 </head>
 <body>
-<?php include("../header/courseheader.html");?> 
-<form>
-<table class="table1">
-<tr>
-<td><div>
+<div class="header col-xs-12">
+    <img src="../image/linnlogo.jpg" width="100px" height="90px" position="fixed" margin-left:10px;>
+    <b>Linn It Solution Co.,Ltd.</b>
+    <ul>
+		  <li><a class="active" href="../index.php">Home</a></li>
+		  <li><a class="active" href="../course.php">Course</a></li>
+          <li><a class="active" href="../news.php">News</a></li>
+          <li><a class="active" href="contact.php">Contact</a></li>
+	</ul>
+</div>
+<div class="container">
+<div class="row">
+<div class="flip-box col-lg-4 col-sm-12">
 <h4 class="header">Intermediate Course</h4>
 <img src="../image/com.jpg"></div> 
-<br><br>
-</td>
-<td>
-<div>
+<div class="col-lg-4 col-sm-12">
 Windows 10<br>
 Microsoft Office Word<br>
 Microsoft Office Excel<br>
@@ -106,20 +112,16 @@ Internet e-mail<br></p>
 <br>
 ကုမၸဏီလုပ္ငန္းမ်ားတြက္ intermediaite course လစဥ္သင္တန္းခြဲမ်ားရွိသည္။
 </div><br><br>
-</td>
-<td>
-<div style="text-align:center;">
+<div class="flip-box col-lg-4 col-sm-12">
    Duration:3 Months<br>
    Fees:30000Ks
 </div><br><br>
-</td>
-</tr></table>
-</form>
-<form>
-<table>
-<tr><td><div><h4 class="header">Design Course</h4>
-<img src="../image/design.jpg"></div><br><br> </td>
-<td><div>
+</div>
+<hr>
+<div class="row">
+<div class="flip-box col-lg-4 col-sm-12"><h4 class="header">Design Course</h4>
+<img src="../image/design.jpg"></div><br><br>
+<div class="col-lg-4 col-sm-12">
 Adobe Photoshop (Latest Version)<br>
 Adobe Illustrator (Latest Version)<br>
 Scanning<br>
@@ -129,12 +131,9 @@ logodesign မ်ားေရးဆြဲျခင္းတို့ကို <b
 မိမိသင္ယူလိုေသာအခ်ိန္ကို ေရြးခ်ယ္သင္ယူႏိုင္ျပီး<br>
  တစ္ဦးခ်င္းလည္း အထူးသင္ျကားေပးသည္။
 </div>
-</td>
-<td> <div style="text-align:center;">Duration:3 Months</div></td>
-
-</tr>
-</table>
-</form>
+<div class="flip-box col-lg-4 col-sm-12">Duration:3 Months</div>
+</div>
+</div>
 <?php include("../footer/footer.html");?>
 </body>
 </html>

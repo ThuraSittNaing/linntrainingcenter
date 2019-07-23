@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" type="text/css" href="../css/response.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>    
 
-           .mySlides {display:none;}
+         .mySlides {display:none;}
+         #mySidenav a {
+    position: absolute;
+    left: -50px;
+    transition: 0.3s;
+    padding: 20px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
 
             ul {
             list-style-type: none;
@@ -23,6 +33,7 @@
             li {
             float: left;
             border-right:0px solid #bbb;
+            font-size:15px;
             }
 
             li:last-child {
@@ -36,49 +47,38 @@
             padding: 14px 16px;
             text-decoration: none;
             }
+            body{
+        overflow-y:scroll;
+        
+    }
+
 
             li a:hover {
             background-color:#CCCCFF;
             
             }
-            #mySidenav a {
-                position: absolute;
-                left: -50px;
-                transition: 0.3s;
-                padding: 20px;
-                width: 100px;
-                text-decoration: none;
-                font-size: 20px;
-                color: white;
-                border-radius: 0 5px 5px 0;
-            }
-            body{
-        overflow:scroll;
-        height:1150px;
-    }
-form{
-    margin-top:10px;
-}
-.header{
-    color:green;
+    
+    
+  </style>
 
-}
-table{
-  width:100%;
-}
-.table1{
-    border-bottom: 1px solid #000;
-}
-</style>
 </head>
 <body>
-  <?php include("../header/courseheader.html");?>
-<body>
-<form>
-<table class="table1">
-<tr>
-<td><div ><h4 class="header">Android Course</h4><img src="../image/mobile.jpg"></div></td><br><br>
-<td><div>
+<div class="header col-xs-12">
+    <img src="../image/linnlogo.jpg" width="100px" height="90px" position="fixed" margin-left:10px;>
+    <b>Linn It Solution Co.,Ltd.</b>
+    <ul>
+		  <li><a class="active" href="../index.php">Home</a></li>
+		  <li><a class="active" href="../course.php">Course</a></li>
+          <li><a class="active" href="../news.php">News</a></li>
+          <li><a class="active" href="contact.php">Contact</a></li>
+	</ul>
+</div>
+<div class="container">
+<div class="row">
+<div class="flip-box col-lg-4 col-sm-12">
+<h4>Android Course</h4>
+<img src="../image/mobile.jpg" width="260px" height="150px"></div>
+<div class="col-lg-4 col-sm-12">
 Android အေျကာင္းကိုအေျခခံမွစျပီး သင္ျကားေပးျခင္း<br>
 Samsung,HTC,LG,Xiaomi,Hawei,Sony,Coolpadအစရွိေသာဖုန္းမ်ား<br>
 Insecure Boot image/bootloader unlock လုပ္နည္း<br>
@@ -89,19 +89,17 @@ Root access ရရွိေအာင္ျပုလုပ္နည္း<br>
 Android Network Lock/Unlock အေျကာင္းမ်ား<br>
 Android Os တြင္ျဖစ္ေလ့ရွိေသာSoftbrick မ်ားကိုျဖစ္ရသည့္အေျကာင္းရင္းမ်ား<br>
 ေျဖရွင္းျခင္းနည္းလမ္းမ်ားကို သင္ျကားေပးမည္ျဖစ္သည္။<br>
-<br>
 </div>
-</td>
-<td>Fee:150,000Ks<br>Duration:2 Months</td>
-<br><br>
-</tr>
-</table>
-</form>
-<form>
-<table>
-<tr>
-<td><div><h4 class="header">IOs Course</h4><img src="../image/ios.jpg"></div></td>
-<td><div>
+<div class="flip-box col-lg-4 col-sm-12">
+Fee:150,000Ks<br>Duration:2 Months
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="flip-box col-lg-4 col-sm-12">
+<h4>IOs Course</h4><img src="../image/ios.jpg" width="260px" height="150px">
+</div>
+<div class="col-lg-4 col-sm-12">
 Apple သမိုင္းေျကာင္း
 iphone,ipod,ipad အဆင့္ဆင့္ေျပာင္းလဲပံု
 <br>ios အလုပ္လုပ္ပံုကိုေသခ်ာနားလည္ေစရန္ရွင္းလင္းျခင္း<br>
@@ -120,12 +118,11 @@ iTunes error မ်ားကိုအေသးစိတ္နားလည္သ�
 <br>jailbreak ျပုလုပ္ရန္လိုအပ္ခ်က္မ်ား။
 <br>Cydia အသံုးျပုပံုCydia Errord ရွင္းနည္း ၊
 <br>iOs errorရွင္းနည္းတို့ကိုသင္ျကားေပးသည္။
-<br></div></td>
-<td><div style="text-align:center;">Fees:150000Ks<br>
-Duration:2Months</div></td>
-</tr>
-</table>
-</form>
+<br></div>
+<div class="flip-box col-lg-4 col-sm-12">Fees:150000Ks<br>
+Duration:2Months</div>
+</div>
+</div>
 <br>
 <?php include("../footer/footer.html");?>
   
