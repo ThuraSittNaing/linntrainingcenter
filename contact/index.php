@@ -81,7 +81,7 @@
              <div class="col-sm-12 col-md-6 col-lg-3 my-5">
                <div class="card border-0">
                   <div class="card-body text-center">
-                    <img src="https://img.icons8.com/ultraviolet/40/000000/secured-letter-filled.png">
+                  <img src="https://img.icons8.com/nolan/40/000000/email.png">
                     <h5 class="text-uppercase mb-5">email</h5>
                     <p><h6>email@gmail.com</h6></p> 
                   </div>
