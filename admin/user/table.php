@@ -18,7 +18,6 @@ $result =mysqli_query($conn,"SELECT * FROM user ORDER BY id ASC");
               <th>User Name</th>
               <th>Email</th>
               <th>Phone</th>
-              <th>Password</th>
               <th>Created Date</th>
               <th>Updated Date</th>
               <th colspan="2"><center>Action</center></th>
@@ -31,7 +30,6 @@ $result =mysqli_query($conn,"SELECT * FROM user ORDER BY id ASC");
             echo "<td>".$res['username']."</td>";
             echo "<td>".$res['email']."</td>";
             echo "<td>".$res['phno']."</td>";
-            echo "<td>".$res['password']."</td>";
             echo "<td>".$res['created_at']."</td>";
             echo "<td>".$res['update_at']."</td>";
             echo "<td><a href=\"edituser.php?id=$res[id]\"><img src='https://img.icons8.com/material-sharp/24/000000/edit-calendar.png'><a></td>";

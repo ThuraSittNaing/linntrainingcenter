@@ -11,7 +11,6 @@ while($res = mysqli_fetch_array($result))
     $username = $res['username'];
     $email = $res['email'];
     $phone = $res['phno'];
-    $password = $res['password'];
     $created = $res['created_at'];
     $update = $res['update_at'];
   
@@ -55,12 +54,6 @@ while($res = mysqli_fetch_array($result))
                     <label for="phone" class="col-sm-3 control-label">Phone</label>
                     <div class="col-sm-9">
                     <input type="text" id="phone" name="phone" value="<?php echo $phone;?>" placeholder="Phone" class="form-control" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="password" class="col-sm-3 control-label">Password</label>
-                    <div class="col-sm-9">
-                    <input type="password" id="password" value="<?php echo $password;?>" name="password" placeholder="Password" class="form-control" required>
                     </div>
                 </div>
                 <div class="form-group">
