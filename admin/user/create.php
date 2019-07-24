@@ -5,7 +5,7 @@ $username = $_POST['uname'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $password = $_POST['password'];
-$hash_password =md5($password);
+$hash_password =md5['$password'];
 $createddate = $_POST['cdate'];
 $updateddate = $_POST['udate'];
 
