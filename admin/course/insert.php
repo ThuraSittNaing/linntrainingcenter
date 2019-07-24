@@ -11,9 +11,9 @@ include "../../dbconnect/connection.php";
     $desc = $_POST['desc'];
     $duration= $_POST['duration'];
     $fee=$_POST['fee'];
-    $sec=$_POST['sec'];
     
-    $result = mysqli_query($conn, "INSERT INTO course(course_id,course_name,course_desc,course_photo,duration,fees,section) VALUES('$id', '$name', '$desc','$image', '$duration', '$fee',  '$sec')");
+    
+    $result = mysqli_query($conn, "INSERT INTO course(course_id,course_name,course_desc,course_photo,duration,fees) VALUES('$id', '$name', '$desc','$image', '$duration', '$fee')");
     // var_dump($result);
     header("Location:  http://localhost/linntrainingcenter/admin/courses.php");
 

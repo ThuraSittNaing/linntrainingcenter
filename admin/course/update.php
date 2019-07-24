@@ -1,4 +1,3 @@
-
 <?php 
 
 include "../../dbconnect/connection.php";
@@ -11,10 +10,9 @@ if(isset($_POST['addbtn']))
    $photo = $_POST['photo'];
    $duration= $_POST['duration'];
    $fee = $_POST['fee'];
-   $sec= $_POST['sec'];
 }
 
-$result = mysqli_query($conn," UPDATE course SET course_id='$id',course_name='$name', course_desc='$desc', course_photo='$image',duration='$duration',fees='$fee',section='$sec' WHERE course_id=$id");
+$result = mysqli_query($conn," UPDATE course SET course_id='$id',course_name='$name', course_desc='$desc', course_photo='$image',duration='$duration',fees='$fee' WHERE course_id=$id");
 header("Location:http://localhost/linntrainingcenter/admin/courses.php");
 
 ?>

@@ -79,7 +79,7 @@
                         <input type="text" name="fee" id="btnfee" class="form-control">
                     </div>
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                     <label for="" class="col-sm-3 control-label">Section</label>
                     <div class="col-sm-9">
                         <input type="time" name="sec" id="btnsection1" class="form-control">
@@ -90,7 +90,7 @@
                     <div class="col-sm-9 col-sm-offset-3">
                         <button type="submit" name="addbtn" class="btn btn-primary btn-block">Add</button>
                     </div>
-                </div>
+                </div> -->
             </form> <!-- /form -->
         </div> <!-- ./container -->	<script type="text/javascript">
 		</script>

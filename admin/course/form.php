@@ -44,12 +44,6 @@
                         <input type="text" name="fee" id="btnfee" class="form-control">
                     </div>
                 </div>
-                <div class="form-group">
-                    <label for="" class="col-sm-3 control-label">Section</label>
-                    <div class="col-sm-9">
-                        <input type="time" name="sec" id="btnsection1" class="form-control">
-                    </div>
-                </div>
                
                 <div class="form-group">
                     <div class="col-sm-9 col-sm-offset-3">

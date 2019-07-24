@@ -51,9 +51,7 @@
         overflow-y:scroll;
         
     }
-
-
-            li a:hover {
+    li a:hover {
             background-color:#CCCCFF;
             
             }
@@ -100,7 +98,7 @@ Fee:150,000Ks<br>Duration:2 Months
 <h4>IOs Course</h4><img src="../image/ios.jpg" width="260px" height="150px">
 </div>
 <div class="col-lg-4 col-sm-12">
-Apple သမိုင္းေျကာင္း
+Apple သမိုင္းေျကာင္း<br>
 iphone,ipod,ipad အဆင့္ဆင့္ေျပာင္းလဲပံု
 <br>ios အလုပ္လုပ္ပံုကိုေသခ်ာနားလည္ေစရန္ရွင္းလင္းျခင္း<br>
 ideviceမ်ား၏userdata မ်ားကို backup ယူျခင္း

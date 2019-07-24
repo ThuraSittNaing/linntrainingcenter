@@ -13,7 +13,7 @@ while($res = mysqli_fetch_array($result))
   $photo = $res['course_photo'];
   $duration= $res['duration'];
   $fee = $res['fees'];
-  $sec = $res['section'];
+ 
  }
 ?>
 
@@ -27,46 +27,42 @@ while($res = mysqli_fetch_array($result))
 </head>
 <body>
     <div class="container">
-            <form class="form-horizontal" role="form" action="course/update.php" method="post" enctype="multipart/form-data" >
+            <form class="form-horizontal" role="form" action="course/update1.php" method="post" enctype="multipart/form-data">
             
             <div class="form-group">
                     <label for="firstName" class="col-sm-3 control-label">Name</label>
                     <div class="col-sm-9">
-                        <input type="text" name="name"  value="<?php echo $name;?>" >
+                        <input type="text" name="name" class="form-control" value="<?php echo $name;?>" >
                         
                     </div>
                 </div>
                <div class="form-group">
                     <label for="" class="col-sm-3 control-label">Descriprion</label>
                     <div class="col-sm-9">
-                        <input type="text" name="desc"  value="<?php echo $desc;?>">
+                        <textarea name="desc" id="btndescription" class="form-control"><?php echo $desc; ?>
+                        </textarea>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="" class="col-sm-3 control-label">Photo</label>
                     <div class="col-sm-9">
-                        <input type="file" name="photo" value="<?php echo $photo;?>">
+                        <input type="file" name="photo" class="form-control" value="<?php echo $photo;?>">
                     </div>
                 </div>
                   
                   <div class="form-group">
                     <label for="" class="col-sm-3 control-label">Duration</label>
                     <div class="col-sm-9">
-                        <input type="text" name="duration" value="<?php echo $duration;?>">
+                        <input type="text" name="duration" class="form-control" value="<?php echo $duration;?>">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="" class="col-sm-3 control-label">Fees</label>
                     <div class="col-sm-9">
-                        <input type="text" name="fee" value="<?php echo $fee;?>">
+                        <input type="text" name="fee" class="form-control" value="<?php echo $fee;?>">
                     </div>
                 </div>
-                <div class="form-group">
-                    <label for="" class="col-sm-3 control-label">Section</label>
-                    <div class="col-sm-9">
-                        <input type="time" name="sec" value="<?php echo $sec;?>">
-                    </div>
-                </div>
+                
                 <div class="form-group">
                     <div class="col-sm-9 col-sm-offset-3">
                     <input type="hidden" name="id" value="<?php  echo $id;?>">
@@ -74,5 +70,6 @@ while($res = mysqli_fetch_array($result))
                     </div>
                 </div>
             </form>
+        </div>
 </body>
 </html>
